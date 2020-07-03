@@ -1,6 +1,8 @@
+package com.Orange.Education;
 
 
-import java.io.IOException;
+
+/*import java.io.IOException;
 
 import org.apache.http.HttpException;
 import org.apache.http.HttpResponse;
@@ -13,7 +15,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import com.browserup.bup.BrowserUpProxy;
 import com.browserup.bup.BrowserUpProxyServer;
-
+*/
 public class TestHttpRequestAndResponse {
 
 	/*public static void main(String[] args) {

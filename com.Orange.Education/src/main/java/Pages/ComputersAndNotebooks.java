@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedCondition;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -27,6 +27,7 @@ public class ComputersAndNotebooks extends Page{
 	}
 
 	public boolean CheckTheElement() {
+		@SuppressWarnings("unused")
 		WebElement img = ((new WebDriverWait(driver,20))
 				.until(ExpectedConditions.presenceOfElementLocated(By.xpath(element))));
 		return true;

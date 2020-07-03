@@ -1,10 +1,14 @@
 package Data;
 
-public enum DataValues {
+public enum DataValues {	
 	
-	Amazon("Best Sellers in Beauty & Personal Care");
+	LoginText("LOGIN Panel"),
 	
-	public final String label;
+	TitleMainPage("OrangeHRM");
+	
+	
+	
+	private final String label;
 	
 	private DataValues(String label) {
 		this.label = label;
