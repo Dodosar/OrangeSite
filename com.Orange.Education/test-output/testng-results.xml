@@ -2,28 +2,28 @@
 <testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-03T08:55:18Z" name="Default suite" finished-at="2020-07-03T08:55:27Z" duration-ms="9149">
+  <suite started-at="2020-07-03T11:24:55Z" name="Default suite" finished-at="2020-07-03T11:25:04Z" duration-ms="8995">
     <groups>
     </groups>
-    <test started-at="2020-07-03T08:55:18Z" name="Default test" finished-at="2020-07-03T08:55:27Z" duration-ms="9149">
+    <test started-at="2020-07-03T11:24:55Z" name="Default test" finished-at="2020-07-03T11:25:04Z" duration-ms="8995">
       <class name="com.Orange.Education.TestTask">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Orange.Education.TestTask@7c29adc8]" started-at="2020-07-03T11:55:18Z" name="setUp" finished-at="2020-07-03T11:55:23Z" duration-ms="4631" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Orange.Education.TestTask@4c48fe92]" started-at="2020-07-03T14:24:55Z" name="setUp" finished-at="2020-07-03T14:25:00Z" duration-ms="4753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setupClass()[pri:0, instance:com.Orange.Education.TestTask@7c29adc8]" started-at="2020-07-03T11:55:23Z" name="setupClass" finished-at="2020-07-03T11:55:24Z" duration-ms="1092" status="PASS">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:com.Orange.Education.TestTask@4c48fe92]" started-at="2020-07-03T14:25:00Z" name="setupClass" finished-at="2020-07-03T14:25:01Z" duration-ms="956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method signature="CheckTheText()[pri:0, instance:com.Orange.Education.TestTask@7c29adc8]" started-at="2020-07-03T11:55:24Z" name="CheckTheText" finished-at="2020-07-03T11:55:26Z" duration-ms="1889" status="PASS">
+        <test-method signature="CheckTheText()[pri:0, instance:com.Orange.Education.TestTask@4c48fe92]" started-at="2020-07-03T14:25:01Z" name="CheckTheText" finished-at="2020-07-03T14:25:03Z" duration-ms="1763" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckTheText -->
-        <test-method signature="CheckTheTitle()[pri:0, instance:com.Orange.Education.TestTask@7c29adc8]" started-at="2020-07-03T11:55:26Z" name="CheckTheTitle" finished-at="2020-07-03T11:55:26Z" duration-ms="292" status="PASS">
+        <test-method signature="CheckTheTitle()[pri:0, instance:com.Orange.Education.TestTask@4c48fe92]" started-at="2020-07-03T14:25:03Z" name="CheckTheTitle" finished-at="2020-07-03T14:25:03Z" duration-ms="301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckTheTitle -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.Orange.Education.TestTask@7c29adc8]" started-at="2020-07-03T11:55:26Z" name="Teardown" finished-at="2020-07-03T11:55:27Z" duration-ms="1063" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.Orange.Education.TestTask@4c48fe92]" started-at="2020-07-03T14:25:03Z" name="Teardown" finished-at="2020-07-03T14:25:04Z" duration-ms="1067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->

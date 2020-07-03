@@ -7,8 +7,8 @@
         <methods>
           <include name="Teardown"/>
           <include name="CheckTheText"/>
-          <include name="CheckTheTitle"/>
           <include name="setUp"/>
+          <include name="setupClass"/>
         </methods>
       </class> <!-- com.Orange.Education.TestTask -->
     </classes>
