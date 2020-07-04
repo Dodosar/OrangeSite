@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="2" failed="0" skipped="0">
+<testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-03T11:24:55Z" name="Default suite" finished-at="2020-07-03T11:25:04Z" duration-ms="8995">
+  <suite started-at="2020-07-04T20:14:08Z" name="Suite1" finished-at="2020-07-04T20:14:21Z" duration-ms="13052">
     <groups>
     </groups>
-    <test started-at="2020-07-03T11:24:55Z" name="Default test" finished-at="2020-07-03T11:25:04Z" duration-ms="8995">
+    <test started-at="2020-07-04T20:14:08Z" name="TestCaseLoginPage" finished-at="2020-07-04T20:14:21Z" duration-ms="13052">
       <class name="com.Orange.Education.TestTask">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Orange.Education.TestTask@4c48fe92]" started-at="2020-07-03T14:24:55Z" name="setUp" finished-at="2020-07-03T14:25:00Z" duration-ms="4753" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Orange.Education.TestTask@3ae0b770]" started-at="2020-07-04T23:14:08Z" name="setUp" finished-at="2020-07-04T23:14:13Z" duration-ms="4672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setupClass()[pri:0, instance:com.Orange.Education.TestTask@4c48fe92]" started-at="2020-07-03T14:25:00Z" name="setupClass" finished-at="2020-07-03T14:25:01Z" duration-ms="956" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupClass -->
-        <test-method signature="CheckTheText()[pri:0, instance:com.Orange.Education.TestTask@4c48fe92]" started-at="2020-07-03T14:25:01Z" name="CheckTheText" finished-at="2020-07-03T14:25:03Z" duration-ms="1763" status="PASS">
+        <test-method signature="CheckTheText()[pri:0, instance:com.Orange.Education.TestTask@3ae0b770]" started-at="2020-07-04T23:14:13Z" name="CheckTheText" finished-at="2020-07-04T23:14:15Z" duration-ms="1800" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckTheText -->
-        <test-method signature="CheckTheTitle()[pri:0, instance:com.Orange.Education.TestTask@4c48fe92]" started-at="2020-07-03T14:25:03Z" name="CheckTheTitle" finished-at="2020-07-03T14:25:03Z" duration-ms="301" status="PASS">
+        <test-method signature="CheckTheTitle()[pri:0, instance:com.Orange.Education.TestTask@3ae0b770]" started-at="2020-07-04T23:14:15Z" name="CheckTheTitle" finished-at="2020-07-04T23:14:15Z" duration-ms="403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckTheTitle -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.Orange.Education.TestTask@4c48fe92]" started-at="2020-07-03T14:25:03Z" name="Teardown" finished-at="2020-07-03T14:25:04Z" duration-ms="1067" status="PASS">
+        <test-method signature="CheckTheActiveButton()[pri:0, instance:com.Orange.Education.TestTask@3ae0b770]" started-at="2020-07-04T23:14:15Z" name="CheckTheActiveButton" finished-at="2020-07-04T23:14:16Z" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTheActiveButton -->
+        <test-method signature="CorrectLogin()[pri:0, instance:com.Orange.Education.TestTask@3ae0b770]" started-at="2020-07-04T23:14:16Z" name="CorrectLogin" finished-at="2020-07-04T23:14:20Z" duration-ms="4536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CorrectLogin -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.Orange.Education.TestTask@3ae0b770]" started-at="2020-07-04T23:14:20Z" name="Teardown" finished-at="2020-07-04T23:14:21Z" duration-ms="1101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
       </class> <!-- com.Orange.Education.TestTask -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- TestCaseLoginPage -->
+  </suite> <!-- Suite1 -->
 </testng-results>

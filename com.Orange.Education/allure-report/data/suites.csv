@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jul 04 23:17:24 EEST 2020","Sat Jul 04 23:17:24 EEST 2020","325","Surefire suite","Surefire test","com.Orange.Education.TestTask","com.Orange.Education.TestTask","CheckTheActiveButton","CheckTheActiveButton",""
+"passed","Sat Jul 04 23:17:24 EEST 2020","Sat Jul 04 23:17:30 EEST 2020","5620","Surefire suite","Surefire test","com.Orange.Education.TestTask","com.Orange.Education.TestTask","CorrectLogin","CorrectLogin",""
+"passed","Sat Jul 04 23:17:21 EEST 2020","Sat Jul 04 23:17:23 EEST 2020","1694","Surefire suite","Surefire test","com.Orange.Education.TestTask","com.Orange.Education.TestTask","CheckTheText","CheckTheText",""
+"passed","Sat Jul 04 23:17:23 EEST 2020","Sat Jul 04 23:17:24 EEST 2020","339","Surefire suite","Surefire test","com.Orange.Education.TestTask","com.Orange.Education.TestTask","CheckTheTitle","CheckTheTitle",""

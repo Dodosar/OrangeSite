@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Default suite]">
-  <test parallel="none" name="Default test(failed)">
+<suite parallel="none" name="Failed suite [Suite1]">
+  <test parallel="none" name="TestCaseLoginPage(failed)">
     <classes>
       <class name="com.Orange.Education.TestTask">
         <methods>
-          <include name="Teardown"/>
+          <include name="CheckTheActiveButton"/>
+          <include name="CorrectLogin"/>
           <include name="CheckTheText"/>
+          <include name="CheckTheTitle"/>
           <include name="setUp"/>
-          <include name="setupClass"/>
         </methods>
       </class> <!-- com.Orange.Education.TestTask -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- TestCaseLoginPage(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

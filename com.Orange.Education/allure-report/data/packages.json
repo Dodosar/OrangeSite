@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.Orange.Education.TestTask",
+    "children" : [ {
+      "name" : "CheckTheText",
+      "uid" : "22e088b11b1bb4f4",
+      "parentUid" : "1be559b5fbe8797fe226f6c6dabcbc8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593893841921,
+        "stop" : 1593893843615,
+        "duration" : 1694
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "CheckTheTitle",
+      "uid" : "3a9cff0b4bffe7f1",
+      "parentUid" : "1be559b5fbe8797fe226f6c6dabcbc8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593893843745,
+        "stop" : 1593893844084,
+        "duration" : 339
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "CheckTheActiveButton",
+      "uid" : "a3e24aa375d90f87",
+      "parentUid" : "1be559b5fbe8797fe226f6c6dabcbc8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593893844089,
+        "stop" : 1593893844414,
+        "duration" : 325
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "CorrectLogin",
+      "uid" : "9b7c075e6a3754b",
+      "parentUid" : "1be559b5fbe8797fe226f6c6dabcbc8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593893844418,
+        "stop" : 1593893850038,
+        "duration" : 5620
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.Orange.Education.TestTask"
+  } ]
+}

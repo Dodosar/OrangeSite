@@ -5,10 +5,10 @@
     <classes>
       <class name="com.Orange.Education.TestTask">
         <methods>
+          <include name="CheckTheActiveButton"/>
           <include name="Teardown"/>
-          <include name="CheckTheText"/>
-          <include name="setUp"/>
-          <include name="setupClass"/>
+          <include name="CorrectLogin"/>
+          <include name="setUpFF"/>
         </methods>
       </class> <!-- com.Orange.Education.TestTask -->
     </classes>

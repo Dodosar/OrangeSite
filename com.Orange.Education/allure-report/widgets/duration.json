@@ -1,0 +1,41 @@
+[ {
+  "uid" : "a3e24aa375d90f87",
+  "name" : "CheckTheActiveButton",
+  "time" : {
+    "start" : 1593893844089,
+    "stop" : 1593893844414,
+    "duration" : 325
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b7c075e6a3754b",
+  "name" : "CorrectLogin",
+  "time" : {
+    "start" : 1593893844418,
+    "stop" : 1593893850038,
+    "duration" : 5620
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22e088b11b1bb4f4",
+  "name" : "CheckTheText",
+  "time" : {
+    "start" : 1593893841921,
+    "stop" : 1593893843615,
+    "duration" : 1694
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a9cff0b4bffe7f1",
+  "name" : "CheckTheTitle",
+  "time" : {
+    "start" : 1593893843745,
+    "stop" : 1593893844084,
+    "duration" : 339
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

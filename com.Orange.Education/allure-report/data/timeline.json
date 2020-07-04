@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "TYUDM",
+    "children" : [ {
+      "name" : "13676@TYUDM.main(1)",
+      "children" : [ {
+        "name" : "CheckTheActiveButton",
+        "uid" : "a3e24aa375d90f87",
+        "parentUid" : "62f6a0fdc2104ca1a62815386f1830ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593893844089,
+          "stop" : 1593893844414,
+          "duration" : 325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CorrectLogin",
+        "uid" : "9b7c075e6a3754b",
+        "parentUid" : "62f6a0fdc2104ca1a62815386f1830ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593893844418,
+          "stop" : 1593893850038,
+          "duration" : 5620
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckTheText",
+        "uid" : "22e088b11b1bb4f4",
+        "parentUid" : "62f6a0fdc2104ca1a62815386f1830ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593893841921,
+          "stop" : 1593893843615,
+          "duration" : 1694
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckTheTitle",
+        "uid" : "3a9cff0b4bffe7f1",
+        "parentUid" : "62f6a0fdc2104ca1a62815386f1830ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593893843745,
+          "stop" : 1593893844084,
+          "duration" : 339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "62f6a0fdc2104ca1a62815386f1830ef"
+    } ],
+    "uid" : "4be8f16a8bee722f615377d184622f3a"
+  } ]
+}
