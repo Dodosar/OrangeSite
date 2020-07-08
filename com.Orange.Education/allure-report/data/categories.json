@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot find entry for fieldName: 'loginbt'",
+      "children" : [ {
+        "name" : "CheckTheActiveButton",
+        "uid" : "e2743393fbc5485f",
+        "parentUid" : "4593561251363d49d16b931103f2eba3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594211764726,
+          "stop" : 1594211766498,
+          "duration" : 1772
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4593561251363d49d16b931103f2eba3"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

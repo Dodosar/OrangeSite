@@ -1,0 +1,102 @@
+{
+  "uid" : "9915e01b106f49fd",
+  "name" : "ForgotPassword",
+  "fullName" : "com.Orange.Education.TestTask.ForgotPassword",
+  "historyId" : "682df395f5761c863c1d73fb8cfb845c",
+  "time" : {
+    "start" : 1594200836643,
+    "stop" : 1594200836644,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1594200824641,
+      "stop" : 1594200829245,
+      "duration" : 4604
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "createObject",
+    "time" : {
+      "start" : 1594200829247,
+      "stop" : 1594200829263,
+      "duration" : 16
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Teardown",
+    "time" : {
+      "start" : 1594200838778,
+      "stop" : 1594200840370,
+      "duration" : 1592
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.Orange.Education.TestTask"
+  }, {
+    "name" : "testClass",
+    "value" : "com.Orange.Education.TestTask"
+  }, {
+    "name" : "testMethod",
+    "value" : "ForgotPassword"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.Orange.Education.TestTask"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "8016@TYUDM.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9915e01b106f49fd.json",
+  "parameterValues" : [ ]
+}

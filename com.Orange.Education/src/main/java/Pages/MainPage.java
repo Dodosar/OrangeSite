@@ -1,14 +1,20 @@
 package Pages;
 
+import java.net.MalformedURLException;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.util.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+
+import io.qameta.allure.Step;
 
 
 public class MainPage extends Page {
 	
 	WebDriver driver;
-
-	protected String url = "https://opensource-demo.orangehrmlive.com/";
+	
+	
+	protected static String url = "https://opensource-demo.orangehrmlive.com/";
 
 	public MainPage(WebDriver driver) {
 		super(driver);
@@ -27,7 +33,7 @@ public class MainPage extends Page {
 		}
 		return false;
 	}
-
+	@Step("Enter username {0} and check attribute {2} ")
 	public MainPage EnterUserName(String string, String value, String attribute) {
 		// TODO Auto-generated method stub
 		try {
@@ -40,7 +46,7 @@ public class MainPage extends Page {
 		return this;
 	}
 	
-
+	@Step("Enter password {0} and check attribute {2} ")
 	public MainPage EnterPassword(String string, String value, String attribute) {
 		try {
 			isAttributePresent(string,attribute);
@@ -60,6 +66,18 @@ public class MainPage extends Page {
 		getElement(element).click();
 		return new Dashboard(driver);
 	}
+	
+	public static boolean isUrlValid(String url) {
+	      try {
+	         URL obj = new URL(url);
+	         obj.toURI();
+	         return true;
+	      } catch (MalformedURLException e) {
+	         return false;
+	      } catch (URISyntaxException e) {
+	         return false;
+	      }
+	   }
 
 
 }

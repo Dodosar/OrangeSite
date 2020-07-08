@@ -1,0 +1,105 @@
+{
+  "uid" : "92f2a94a741d74f",
+  "name" : "CheckTheText",
+  "fullName" : "com.Orange.Education.TestTask.CheckTheText",
+  "historyId" : "bdf82c247e689a3bfe3fe3d457deb3b7",
+  "time" : {
+    "start" : 1594204723357,
+    "stop" : 1594204723785,
+    "duration" : 428
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1594204716389,
+      "stop" : 1594204721126,
+      "duration" : 4737
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "createObject",
+    "time" : {
+      "start" : 1594204721127,
+      "stop" : 1594204721212,
+      "duration" : 85
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Teardown",
+    "time" : {
+      "start" : 1594204730946,
+      "stop" : 1594204732038,
+      "duration" : 1092
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.Orange.Education.TestTask"
+  }, {
+    "name" : "testClass",
+    "value" : "com.Orange.Education.TestTask"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckTheText"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.Orange.Education.TestTask"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "3524@TYUDM.main(1)"
+  }, {
+    "name" : "epic",
+    "value" : "Смоук тестирование"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "92f2a94a741d74f.json",
+  "parameterValues" : [ ]
+}

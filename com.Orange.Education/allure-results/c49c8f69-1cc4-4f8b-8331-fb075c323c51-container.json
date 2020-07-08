@@ -1,0 +1,1 @@
+{"uuid":"c49c8f69-1cc4-4f8b-8331-fb075c323c51","name":"com.Orange.Education.WebDriverSettings.setUp","description":"","start":1594123387263,"stop":1594123392002,"children":["ac864768-2377-458f-88e6-7193e2c3a320"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1594123387264,"stop":1594123392001}]}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  thread-count="5" verbose="1" name="Suite2" parallel="tests">
+    <test name="HttpRequest">
+    <classes>
+      <class name="com.Orange.Education.API.httpsEducation"/>
+    </classes>
+  </test>
+</suite> <!-- Suite1 -->

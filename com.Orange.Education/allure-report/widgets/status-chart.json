@@ -1,40 +1,60 @@
 [ {
-  "uid" : "a3e24aa375d90f87",
-  "name" : "CheckTheActiveButton",
-  "time" : {
-    "start" : 1593893844089,
-    "stop" : 1593893844414,
-    "duration" : 325
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9b7c075e6a3754b",
-  "name" : "CorrectLogin",
-  "time" : {
-    "start" : 1593893844418,
-    "stop" : 1593893850038,
-    "duration" : 5620
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "22e088b11b1bb4f4",
-  "name" : "CheckTheText",
-  "time" : {
-    "start" : 1593893841921,
-    "stop" : 1593893843615,
-    "duration" : 1694
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3a9cff0b4bffe7f1",
+  "uid" : "687dce5521103197",
   "name" : "CheckTheTitle",
   "time" : {
-    "start" : 1593893843745,
-    "stop" : 1593893844084,
-    "duration" : 339
+    "start" : 1594211767078,
+    "stop" : 1594211767319,
+    "duration" : 241
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "e2743393fbc5485f",
+  "name" : "CheckTheActiveButton",
+  "time" : {
+    "start" : 1594211764726,
+    "stop" : 1594211766498,
+    "duration" : 1772
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "30bf450848a8174b",
+  "name" : "JSExecutorTest",
+  "time" : {
+    "start" : 1594211772028,
+    "stop" : 1594211774429,
+    "duration" : 2401
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a49ca8a2f68a26",
+  "name" : "ForgotPassword",
+  "time" : {
+    "start" : 1594211772020,
+    "stop" : 1594211772021,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "479f5811809d3134",
+  "name" : "CorrectLogin",
+  "time" : {
+    "start" : 1594211767329,
+    "stop" : 1594211772009,
+    "duration" : 4680
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "335a364b44f47ab6",
+  "name" : "CheckTheText",
+  "time" : {
+    "start" : 1594211766638,
+    "stop" : 1594211767071,
+    "duration" : 433
   },
   "status" : "passed",
   "severity" : "normal"

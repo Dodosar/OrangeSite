@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="4" passed="4" failed="0" skipped="0">
+<testng-results total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-04T20:14:08Z" name="Suite1" finished-at="2020-07-04T20:14:21Z" duration-ms="13052">
+  <suite started-at="2020-07-08T13:48:43Z" name="Default suite" finished-at="2020-07-08T13:48:44Z" duration-ms="1165">
     <groups>
     </groups>
-    <test started-at="2020-07-04T20:14:08Z" name="TestCaseLoginPage" finished-at="2020-07-04T20:14:21Z" duration-ms="13052">
-      <class name="com.Orange.Education.TestTask">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Orange.Education.TestTask@3ae0b770]" started-at="2020-07-04T23:14:08Z" name="setUp" finished-at="2020-07-04T23:14:13Z" duration-ms="4672" status="PASS">
+    <test started-at="2020-07-08T13:48:43Z" name="Default test" finished-at="2020-07-08T13:48:44Z" duration-ms="1165">
+      <class name="com.Orange.Education.httpsEducation">
+        <test-method signature="CheckButtonByHttpGetRequest()[pri:0, instance:com.Orange.Education.httpsEducation@47af099e]" started-at="2020-07-08T16:48:43Z" name="CheckButtonByHttpGetRequest" finished-at="2020-07-08T16:48:43Z" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="CheckTheText()[pri:0, instance:com.Orange.Education.TestTask@3ae0b770]" started-at="2020-07-04T23:14:13Z" name="CheckTheText" finished-at="2020-07-04T23:14:15Z" duration-ms="1800" status="PASS">
+        </test-method> <!-- CheckButtonByHttpGetRequest -->
+        <test-method signature="CheckTextByHttpGetRequest()[pri:0, instance:com.Orange.Education.httpsEducation@47af099e]" started-at="2020-07-08T16:48:43Z" name="CheckTextByHttpGetRequest" finished-at="2020-07-08T16:48:43Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CheckTheText -->
-        <test-method signature="CheckTheTitle()[pri:0, instance:com.Orange.Education.TestTask@3ae0b770]" started-at="2020-07-04T23:14:15Z" name="CheckTheTitle" finished-at="2020-07-04T23:14:15Z" duration-ms="403" status="PASS">
+        </test-method> <!-- CheckTextByHttpGetRequest -->
+        <test-method signature="HttpGet()[pri:0, instance:com.Orange.Education.httpsEducation@47af099e]" started-at="2020-07-08T16:48:43Z" name="HttpGet" finished-at="2020-07-08T16:48:44Z" duration-ms="892" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CheckTheTitle -->
-        <test-method signature="CheckTheActiveButton()[pri:0, instance:com.Orange.Education.TestTask@3ae0b770]" started-at="2020-07-04T23:14:15Z" name="CheckTheActiveButton" finished-at="2020-07-04T23:14:16Z" duration-ms="326" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckTheActiveButton -->
-        <test-method signature="CorrectLogin()[pri:0, instance:com.Orange.Education.TestTask@3ae0b770]" started-at="2020-07-04T23:14:16Z" name="CorrectLogin" finished-at="2020-07-04T23:14:20Z" duration-ms="4536" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CorrectLogin -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.Orange.Education.TestTask@3ae0b770]" started-at="2020-07-04T23:14:20Z" name="Teardown" finished-at="2020-07-04T23:14:21Z" duration-ms="1101" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Teardown -->
-      </class> <!-- com.Orange.Education.TestTask -->
-    </test> <!-- TestCaseLoginPage -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- HttpGet -->
+      </class> <!-- com.Orange.Education.httpsEducation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

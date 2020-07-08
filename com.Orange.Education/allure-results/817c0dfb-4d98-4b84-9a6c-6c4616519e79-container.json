@@ -1,0 +1,1 @@
+{"uuid":"817c0dfb-4d98-4b84-9a6c-6c4616519e79","name":"com.Orange.Education.TestTask.createObject","description":"","start":1594124035126,"stop":1594124035128,"children":["d85458fa-9c41-4b5f-bc03-b7e367b24b83"],"befores":[{"name":"createObject","status":"passed","stage":"finished","description":"","start":1594124035126,"stop":1594124035127}]}

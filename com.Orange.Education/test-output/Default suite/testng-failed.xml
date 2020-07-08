@@ -7,8 +7,8 @@
         <methods>
           <include name="CheckTheActiveButton"/>
           <include name="Teardown"/>
-          <include name="CorrectLogin"/>
-          <include name="setUpFF"/>
+          <include name="createObject"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- com.Orange.Education.TestTask -->
     </classes>

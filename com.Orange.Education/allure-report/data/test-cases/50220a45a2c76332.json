@@ -1,0 +1,175 @@
+{
+  "uid" : "50220a45a2c76332",
+  "name" : "CorrectLogin",
+  "fullName" : "com.Orange.Education.TestTask.CorrectLogin",
+  "historyId" : "5be983305f0f57b3e060f6ffae381f29",
+  "time" : {
+    "start" : 1594205726658,
+    "stop" : 1594205731067,
+    "duration" : 4409
+  },
+  "description" : "Verify Sign In fucntionality",
+  "descriptionHtml" : "<p>Verify Sign In fucntionality</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1594205719336,
+      "stop" : 1594205723943,
+      "duration" : 4607
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "createObject",
+    "time" : {
+      "start" : 1594205723944,
+      "stop" : 1594205723950,
+      "duration" : 6
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify Sign In fucntionality",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Enter username username and check attribute id ",
+      "time" : {
+        "start" : 1594205726962,
+        "stop" : 1594205727086,
+        "duration" : 124
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "string",
+        "value" : "username"
+      }, {
+        "name" : "value",
+        "value" : "Admin"
+      }, {
+        "name" : "attribute",
+        "value" : "id"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Enter password password and check attribute id ",
+      "time" : {
+        "start" : 1594205727087,
+        "stop" : 1594205727206,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "string",
+        "value" : "password"
+      }, {
+        "name" : "value",
+        "value" : "admin123"
+      }, {
+        "name" : "attribute",
+        "value" : "id"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Teardown",
+    "time" : {
+      "start" : 1594205733465,
+      "stop" : 1594205734539,
+      "duration" : 1074
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.Orange.Education.TestTask"
+  }, {
+    "name" : "testClass",
+    "value" : "com.Orange.Education.TestTask"
+  }, {
+    "name" : "testMethod",
+    "value" : "CorrectLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite1"
+  }, {
+    "name" : "suite",
+    "value" : "TestCaseLoginPage"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.Orange.Education.TestTask"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "10284@TYUDM.TestNG(17)"
+  }, {
+    "name" : "epic",
+    "value" : "Смоук тестирование"
+  }, {
+    "name" : "feature",
+    "value" : "Регистрация"
+  }, {
+    "name" : "story",
+    "value" : "Регистрация нового пользователя"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50220a45a2c76332.json",
+  "parameterValues" : [ ]
+}
