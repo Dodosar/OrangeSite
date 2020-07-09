@@ -78,4 +78,10 @@ public class httpsEducation{
 		}
 		System.out.println("Result of test Login button exist" );		
 	}
+	
+	@Description("Test POST METHOD")
+	@Test
+	public void POSTRequest() {
+		
+	}
 }

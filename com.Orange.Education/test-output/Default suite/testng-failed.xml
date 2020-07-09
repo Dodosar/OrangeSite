@@ -3,14 +3,11 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="com.Orange.Education.TestTask">
+      <class name="com.Orange.Education.GridExamples.StandAloneExample">
         <methods>
-          <include name="CheckTheActiveButton"/>
-          <include name="Teardown"/>
-          <include name="createObject"/>
-          <include name="setUp"/>
+          <include name="JSExecutorTest"/>
         </methods>
-      </class> <!-- com.Orange.Education.TestTask -->
+      </class> <!-- com.Orange.Education.GridExamples.StandAloneExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  thread-count="5" verbose="1" name="Suite3" parallel="tests">
+    <test name="GridFF">
+    <parameter name ="myBrowser" value="firefox"/>
+    <classes>
+      <class name="com.Orange.Education.GridExamples.StandAloneExample"/>
+    </classes>
+  </test>
+      <test name="GridChrome">
+    <parameter name ="myBrowser" value="chrome"/>
+    <classes>
+      <class name="com.Orange.Education.GridExamples.StandAloneExample"/>
+    </classes>
+  </test>
+      <test name="GridIE">
+    <parameter name ="myBrowser" value="IE"/>
+    <classes>
+      <class name="com.Orange.Education.GridExamples.StandAloneExample"/>
+    </classes>
+  </test>
+</suite> <!-- Suite1 -->

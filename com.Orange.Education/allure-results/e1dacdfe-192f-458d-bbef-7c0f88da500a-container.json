@@ -1,1 +1,0 @@
-{"uuid":"e1dacdfe-192f-458d-bbef-7c0f88da500a","name":"com.Orange.Education.WebDriverSettings.Teardown","description":"","start":1594123813134,"stop":1594123814253,"children":["2be559de-15d7-4880-89d8-cabda0ea88af"],"afters":[{"name":"Teardown","status":"passed","stage":"finished","description":"","start":1594123813134,"stop":1594123814253}]}
