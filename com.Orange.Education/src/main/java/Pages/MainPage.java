@@ -1,42 +1,83 @@
 package Pages;
 
+import java.net.MalformedURLException;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.util.NoSuchElementException;
-
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 
-import Data.DataValues;
+import io.qameta.allure.Step;
 
-public class MainPage extends Page{	
+
+public class MainPage extends Page {
 	
-	@FindBy(xpath="//*[@id='logInPanelHeading']")
-	WebElement login;
+	WebDriver driver;
 	
-	protected String url = "https://opensource-demo.orangehrmlive.com/";
 	
+	protected static String url = "https://opensource-demo.orangehrmlive.com/";
 
 	public MainPage(WebDriver driver) {
 		super(driver);
-		driver.get(url);
-		PageFactory.initElements(driver, this);
+		this.driver = driver;
+		this.driver.get(url);
+		//driver.manage().deleteAllCookies();
+		
 	}
-	
-	public boolean CheckTheTextInMainPage() {
-		return CheckTheText(login, DataValues.LoginText);
-	}
-	
-	public void CheckTheTitle() {
+
+	public boolean CheckTheTextInMainPage(String element, String textForElement, String attribute) {
 		try {
-			Assert.assertEquals(driver.getTitle(), DataValues.TitleMainPage.get());
+			CheckTheText(element, textForElement, attribute);
+			return true;
+		} catch (NoSuchElementException e) {
+			e.getMessage();
+		}
+		return false;
+	}
+	@Step("Enter username {0} and check attribute {2} ")
+	public MainPage EnterUserName(String string, String value, String attribute) {
+		// TODO Auto-generated method stub
+		try {
+			isAttributePresent(string,attribute);
+			getElement(string).sendKeys(value);
 		}
 		catch(NoSuchElementException e) {
 			e.getMessage();
 		}
+		return this;
 	}
-
-
 	
+	@Step("Enter password {0} and check attribute {2} ")
+	public MainPage EnterPassword(String string, String value, String attribute) {
+		try {
+			isAttributePresent(string,attribute);
+			getElement(string).sendKeys(value);
+		}
+		catch(NoSuchElementException e) {
+			e.getMessage();
+		}
+		return this;
+	}
+	
+	public MainPage then() {
+		return this;
+	}
+	@Override
+	public Dashboard Click(String element) {
+		getElement(element).click();
+		return new Dashboard(driver);
+	}
+	
+	public static boolean isUrlValid(String url) {
+	      try {
+	         URL obj = new URL(url);
+	         obj.toURI();
+	         return true;
+	      } catch (MalformedURLException e) {
+	         return false;
+	      } catch (URISyntaxException e) {
+	         return false;
+	      }
+	   }
+
+
 }

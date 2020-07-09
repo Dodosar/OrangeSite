@@ -12,5 +12,5 @@ public class Orangehrmlive {
 	
 	public MainPage mainPage() {return new MainPage(driver);}
 	
-	public ComputersAndNotebooks PcPage() {return new ComputersAndNotebooks(driver);};
+	public Dashboard dashboard() {return new Dashboard(driver);}
 }

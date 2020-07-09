@@ -1,0 +1,158 @@
+{
+  "eafa370339bebb82a101d5b46ecd6a07" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "687dce5521103197",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594211767078,
+        "stop" : 1594211767319,
+        "duration" : 241
+      }
+    }, {
+      "uid" : "18451c4b49ec495f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594130013387,
+        "stop" : 1594130013623,
+        "duration" : 236
+      }
+    } ]
+  },
+  "5be983305f0f57b3e060f6ffae381f29" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "479f5811809d3134",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594211767329,
+        "stop" : 1594211772009,
+        "duration" : 4680
+      }
+    }, {
+      "uid" : "10016709260e1fcd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594130013632,
+        "stop" : 1594130018160,
+        "duration" : 4528
+      }
+    } ]
+  },
+  "682df395f5761c863c1d73fb8cfb845c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "8a49ca8a2f68a26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594211772020,
+        "stop" : 1594211772021,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d25a693dfde57906",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594130018192,
+        "stop" : 1594130018193,
+        "duration" : 1
+      }
+    } ]
+  },
+  "bdf82c247e689a3bfe3fe3d457deb3b7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "335a364b44f47ab6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594211766638,
+        "stop" : 1594211767071,
+        "duration" : 433
+      }
+    }, {
+      "uid" : "3de17eadf07c4123",
+      "status" : "broken",
+      "statusDetails" : "Cannot find entry for fieldName: 'logi1ntext'",
+      "time" : {
+        "start" : 1594130013114,
+        "stop" : 1594130013380,
+        "duration" : 266
+      }
+    } ]
+  },
+  "8eede8bc2ca3bca0589bfefbed61ce3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "30bf450848a8174b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594211772028,
+        "stop" : 1594211774429,
+        "duration" : 2401
+      }
+    } ]
+  },
+  "db24016f385b18c7071dd99abe324b5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "e2743393fbc5485f",
+      "status" : "broken",
+      "statusDetails" : "Cannot find entry for fieldName: 'loginbt'",
+      "time" : {
+        "start" : 1594211764726,
+        "stop" : 1594211766498,
+        "duration" : 1772
+      }
+    }, {
+      "uid" : "1e8e295f8e35b426",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594130011064,
+        "stop" : 1594130012983,
+        "duration" : 1919
+      }
+    } ]
+  }
+}

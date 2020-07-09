@@ -8,9 +8,21 @@
 	<name>issueMy</name>
 	<url>http://maven.apache.org</url>
 
+	<description> My education Auto testing</description>
+
+	<developers>
+		<developer>
+			<name>Dima</name>
+			<roles>
+				<role>owner</role>
+			</roles>
+		</developer>
+	</developers>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<project.reporting.outputEncoding>UTF-8
+		</project.reporting.outputEncoding>
 		<junit.jupiter.version>5.5.2</junit.jupiter.version>
 		<junit.platform.version>1.5.2</junit.platform.version>
 		<aspectj.version>1.8.10</aspectj.version>
@@ -28,6 +40,12 @@
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
 			<version>2.3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.30</version>
+			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
@@ -105,6 +123,13 @@
 			<version>1.0.0</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+
 
 	</dependencies>
 
@@ -121,6 +146,11 @@
 				<version>3.0.0-M3</version>
 				<configuration>
 					<testFailureIgnore>true</testFailureIgnore>
+					<suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>testngHttp.xml</suiteXmlFile>
+						<suiteXmlFile>testngGrid.xml</suiteXmlFile>
+					</suiteXmlFiles>
 					<argLine>
 						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
 					</argLine>
@@ -140,6 +170,20 @@
 				<configuration>
 					<reportDirectory>${basedir}/allure-report</reportDirectory> <!--any directory you want -->
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<!-- I don't specify version at all (Spring Boot can autoconfigure plugin 
+					version) -->
+				<executions>
+					<execution>
+						<!-- changed <id> to <phase>, but I don't know whether it's important 
+							or not. -->
+						<phase>integration-test</phase>
+						<!-- ... no changes here: the same as in the question ... -->
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>

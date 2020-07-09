@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jul 08 15:36:07 EEST 2020","Wed Jul 08 15:36:07 EEST 2020","241","Default suite","Default test","com.Orange.Education.TestTask","com.Orange.Education.TestTask","CheckTheTitle","CheckTheTitle",""
+"broken","Wed Jul 08 15:36:04 EEST 2020","Wed Jul 08 15:36:06 EEST 2020","1772","Default suite","Default test","com.Orange.Education.TestTask","com.Orange.Education.TestTask","CheckTheActiveButton","CheckTheActiveButton",""
+"passed","Wed Jul 08 15:36:12 EEST 2020","Wed Jul 08 15:36:14 EEST 2020","2401","Default suite","Default test","com.Orange.Education.TestTask","com.Orange.Education.TestTask","JSExecutorTest","JSExecutorTest",""
+"passed","Wed Jul 08 15:36:12 EEST 2020","Wed Jul 08 15:36:12 EEST 2020","1","Default suite","Default test","com.Orange.Education.TestTask","com.Orange.Education.TestTask","ForgotPassword","ForgotPassword",""
+"passed","Wed Jul 08 15:36:07 EEST 2020","Wed Jul 08 15:36:12 EEST 2020","4680","Default suite","Default test","com.Orange.Education.TestTask","com.Orange.Education.TestTask","CorrectLogin","CorrectLogin","Verify Sign In fucntionality"
+"passed","Wed Jul 08 15:36:06 EEST 2020","Wed Jul 08 15:36:07 EEST 2020","433","Default suite","Default test","com.Orange.Education.TestTask","com.Orange.Education.TestTask","CheckTheText","CheckTheText",""

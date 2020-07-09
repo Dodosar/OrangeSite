@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Suite1]">
-  <test parallel="none" name="TestCaseLoginPage(failed)">
+<suite parallel="tests" name="Failed suite [Suite1]">
+  <test parallel="tests" name="TestCaseLoginPage(failed)">
     <classes>
       <class name="com.Orange.Education.TestTask">
         <methods>
+          <include name="CheckTheActiveButton"/>
           <include name="Teardown"/>
-          <include name="CheckTheText"/>
+          <include name="createObject"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.Orange.Education.TestTask -->
