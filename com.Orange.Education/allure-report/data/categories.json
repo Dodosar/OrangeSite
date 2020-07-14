@@ -4,22 +4,108 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Cannot find entry for fieldName: 'loginbt'",
+      "name" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'TYUDM', ip: '192.168.1.154', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.5'\nDriver info: driver.version: RemoteWebDriver",
       "children" : [ {
-        "name" : "CheckTheActiveButton",
-        "uid" : "e2743393fbc5485f",
-        "parentUid" : "4593561251363d49d16b931103f2eba3",
+        "name" : "JSExecutorTest",
+        "uid" : "f0da93ef5afe4703",
+        "parentUid" : "e677596cbeaa999b3b08227c9815b67a",
         "status" : "broken",
         "time" : {
-          "start" : 1594211764726,
-          "stop" : 1594211766498,
-          "duration" : 1772
+          "start" : 1594723262319,
+          "stop" : 1594723262320,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "IE" ]
+      } ],
+      "uid" : "e677596cbeaa999b3b08227c9815b67a"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='btnAdd'] (tried for 10 second(s) with 500 MILLISECONDS interval)",
+      "children" : [ {
+        "name" : "AddNewUser",
+        "uid" : "68eee9998667eaf4",
+        "parentUid" : "d5d1eac952b56cd8d5fd468a2c082eba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594723293653,
+          "stop" : 1594723306536,
+          "duration" : 12883
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
+      }, {
+        "name" : "AddNewUserByParametersInXml",
+        "uid" : "39cbd47e0fd2ac01",
+        "parentUid" : "d5d1eac952b56cd8d5fd468a2c082eba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594723322989,
+          "stop" : 1594723336108,
+          "duration" : 13119
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "admin123", "Admin", "Admin", "Bhavin Kumar", "Dqweruiop", "Enabled", "Dima50065", "Bhavin Kumar", "admin123", "Admin", "Dima50065", "Enabled", "Admin", "Dqweruiop" ]
       } ],
-      "uid" : "4593561251363d49d16b931103f2eba3"
+      "uid" : "d5d1eac952b56cd8d5fd468a2c082eba"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='menu_admin_viewAdminModule']\"}\n  (Session info: chrome=83.0.4103.116)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'TYUDM', ip: '192.168.1.154', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\\Users\\Dima\\AppData\\Local\\Temp\\scoped_dir18076_144656072}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53052}, acceptInsecureCerts=false, browserVersion=83.0.4103.116, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]\nSession ID: ef6b4b36052a0e563878172dae233ba4\n*** Element info: {Using=xpath, value=//*[@id='menu_admin_viewAdminModule']}",
+      "children" : [ {
+        "name" : "LogInByDataProvider",
+        "uid" : "f332928292cc7da9",
+        "parentUid" : "79341cfda07656f3d4ada1796ed566f8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594723363565,
+          "stop" : 1594723375431,
+          "duration" : 11866
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Admin1", "admin1234" ]
+      }, {
+        "name" : "LogInByDataProvider",
+        "uid" : "77ab95654a9c1e35",
+        "parentUid" : "79341cfda07656f3d4ada1796ed566f8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594723376318,
+          "stop" : 1594723388580,
+          "duration" : 12262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Admin", "admin1234" ]
+      }, {
+        "name" : "LogInByDataProvider",
+        "uid" : "638e5f0e87483385",
+        "parentUid" : "79341cfda07656f3d4ada1796ed566f8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594723389470,
+          "stop" : 1594723401317,
+          "duration" : 11847
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Admin1", "admin123" ]
+      }, {
+        "name" : "LogInByDataProvider",
+        "uid" : "3c572d58929d290e",
+        "parentUid" : "79341cfda07656f3d4ada1796ed566f8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1594723407036,
+          "stop" : 1594723418861,
+          "duration" : 11825
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "null", "null" ]
+      } ],
+      "uid" : "79341cfda07656f3d4ada1796ed566f8"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

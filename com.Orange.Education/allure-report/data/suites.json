@@ -2,94 +2,501 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "Default suite",
+    "name" : "SuiteGrid",
     "children" : [ {
-      "name" : "Default test",
+      "name" : "GridFF",
+      "children" : [ {
+        "name" : "com.Orange.Education.GridExamples.StandAloneExample",
+        "children" : [ {
+          "name" : "JSExecutorTest",
+          "uid" : "909161bdb60dc676",
+          "parentUid" : "119c8f827281e8ccd73aca085141a458",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594723239056,
+            "stop" : 1594723246877,
+            "duration" : 7821
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "firefox" ]
+        } ],
+        "uid" : "119c8f827281e8ccd73aca085141a458"
+      } ],
+      "uid" : "91a7173febfce2a3e7881e75ac19dba7"
+    }, {
+      "name" : "GridChrome",
+      "children" : [ {
+        "name" : "com.Orange.Education.GridExamples.StandAloneExample",
+        "children" : [ {
+          "name" : "JSExecutorTest",
+          "uid" : "5dece45aaeb9f64a",
+          "parentUid" : "435f23a30be872f697e470bbb9221671",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594723255383,
+            "stop" : 1594723261134,
+            "duration" : 5751
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome" ]
+        } ],
+        "uid" : "435f23a30be872f697e470bbb9221671"
+      } ],
+      "uid" : "58c25c87e647aec06f8ad36936fec675"
+    }, {
+      "name" : "GridIE",
+      "children" : [ {
+        "name" : "com.Orange.Education.GridExamples.StandAloneExample",
+        "children" : [ {
+          "name" : "JSExecutorTest",
+          "uid" : "f0da93ef5afe4703",
+          "parentUid" : "59364598624a2dfe24288afdab0e9ae6",
+          "status" : "broken",
+          "time" : {
+            "start" : 1594723262319,
+            "stop" : 1594723262320,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "IE" ]
+        } ],
+        "uid" : "59364598624a2dfe24288afdab0e9ae6"
+      } ],
+      "uid" : "5dda2c2abe2b105f355b59cde4ae9b61"
+    } ],
+    "uid" : "1e29adad4e0bdaad7dda70088aaddade"
+  }, {
+    "name" : "SuiteLogIN",
+    "children" : [ {
+      "name" : "TestCaseLoginPage",
       "children" : [ {
         "name" : "com.Orange.Education.TestTask",
         "children" : [ {
-          "name" : "CheckTheActiveButton",
-          "uid" : "e2743393fbc5485f",
-          "parentUid" : "9c6865f544d46ae218afac3e467228f7",
-          "status" : "broken",
-          "time" : {
-            "start" : 1594211764726,
-            "stop" : 1594211766498,
-            "duration" : 1772
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
           "name" : "CheckTheText",
-          "uid" : "335a364b44f47ab6",
-          "parentUid" : "9c6865f544d46ae218afac3e467228f7",
+          "uid" : "bc3655e32fafe715",
+          "parentUid" : "fa90e07f58a8b52065ce8795a43c39bf",
           "status" : "passed",
           "time" : {
-            "start" : 1594211766638,
-            "stop" : 1594211767071,
-            "duration" : 433
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "CheckTheTitle",
-          "uid" : "687dce5521103197",
-          "parentUid" : "9c6865f544d46ae218afac3e467228f7",
-          "status" : "passed",
-          "time" : {
-            "start" : 1594211767078,
-            "stop" : 1594211767319,
-            "duration" : 241
+            "start" : 1594723266111,
+            "stop" : 1594723267810,
+            "duration" : 1699
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "CorrectLogin",
-          "uid" : "479f5811809d3134",
-          "parentUid" : "9c6865f544d46ae218afac3e467228f7",
+          "uid" : "2d1c8ee17ea7544c",
+          "parentUid" : "fa90e07f58a8b52065ce8795a43c39bf",
           "status" : "passed",
           "time" : {
-            "start" : 1594211767329,
-            "stop" : 1594211772009,
-            "duration" : 4680
+            "start" : 1594723268710,
+            "stop" : 1594723273517,
+            "duration" : 4807
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "ForgotPassword",
-          "uid" : "8a49ca8a2f68a26",
-          "parentUid" : "9c6865f544d46ae218afac3e467228f7",
+          "uid" : "e732657231ba69b2",
+          "parentUid" : "fa90e07f58a8b52065ce8795a43c39bf",
           "status" : "passed",
           "time" : {
-            "start" : 1594211772020,
-            "stop" : 1594211772021,
-            "duration" : 1
+            "start" : 1594723274485,
+            "stop" : 1594723274488,
+            "duration" : 3
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "CheckTheTitle",
+          "uid" : "29cc6f1900085d12",
+          "parentUid" : "fa90e07f58a8b52065ce8795a43c39bf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594723275482,
+            "stop" : 1594723275856,
+            "duration" : 374
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "CheckTheActiveButton",
+          "uid" : "2838735cab50459f",
+          "parentUid" : "fa90e07f58a8b52065ce8795a43c39bf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594723276936,
+            "stop" : 1594723277388,
+            "duration" : 452
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "JSExecutorTest",
-          "uid" : "30bf450848a8174b",
-          "parentUid" : "9c6865f544d46ae218afac3e467228f7",
+          "uid" : "fcbc2099230b01c9",
+          "parentUid" : "fa90e07f58a8b52065ce8795a43c39bf",
           "status" : "passed",
           "time" : {
-            "start" : 1594211772028,
-            "stop" : 1594211774429,
-            "duration" : 2401
+            "start" : 1594723278364,
+            "stop" : 1594723280950,
+            "duration" : 2586
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "9c6865f544d46ae218afac3e467228f7"
+        "uid" : "fa90e07f58a8b52065ce8795a43c39bf"
       } ],
-      "uid" : "848117670d75f6868e681771989ad50e"
+      "uid" : "1b0b821e68d28a6f2b1b953bad51cf91"
     } ],
-    "uid" : "2c8837b97293ea01a164a5cd7048ad56"
+    "uid" : "68180eb3ad42d84fe7f045f434853c2f"
+  }, {
+    "name" : "SuiteAdmin",
+    "children" : [ {
+      "name" : "Adminpagetest",
+      "children" : [ {
+        "name" : "com.Orange.Education.AdminPageTest",
+        "children" : [ {
+          "name" : "CorrectLogin",
+          "uid" : "6b6d5c4ea76a96f5",
+          "parentUid" : "464246e61f80dd5b6e13e17cb8c962c2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594723287039,
+            "stop" : 1594723292697,
+            "duration" : 5658
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "AddNewUser",
+          "uid" : "68eee9998667eaf4",
+          "parentUid" : "464246e61f80dd5b6e13e17cb8c962c2",
+          "status" : "broken",
+          "time" : {
+            "start" : 1594723293653,
+            "stop" : 1594723306536,
+            "duration" : 12883
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "VerifyNewUser",
+          "uid" : "215a942f33408eee",
+          "parentUid" : "464246e61f80dd5b6e13e17cb8c962c2",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1594723307342,
+            "stop" : 1594723307342,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "464246e61f80dd5b6e13e17cb8c962c2"
+      } ],
+      "uid" : "7ab867991f3be23a5d369ce315c8f9e3"
+    } ],
+    "uid" : "f614cc2417e33c03d3fc5a10efd8e5bb"
+  }, {
+    "name" : "ParametersSuite",
+    "children" : [ {
+      "name" : "Test",
+      "children" : [ {
+        "name" : "com.Orange.Education.ParametersExampleXML",
+        "children" : [ {
+          "name" : "logIn",
+          "uid" : "9fe5b33a6a20a48e",
+          "parentUid" : "7bd9ddbcfe5d31d3cd4ab410233a0bb9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594723313235,
+            "stop" : 1594723318350,
+            "duration" : 5115
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "admin123", "Admin", "Admin", "admin123", "Bhavin Kumar", "admin123", "Admin", "Dima50065", "Enabled", "Admin", "Dqweruiop" ]
+        }, {
+          "name" : "logInWithParametrs",
+          "uid" : "4afb2be5083a18b8",
+          "parentUid" : "7bd9ddbcfe5d31d3cd4ab410233a0bb9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594723319226,
+            "stop" : 1594723322170,
+            "duration" : 2944
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "admin123", "Admin", "Admin", "admin123", "Bhavin Kumar", "admin123", "Admin", "Dima50065", "Enabled", "Admin", "Dqweruiop" ]
+        }, {
+          "name" : "AddNewUserByParametersInXml",
+          "uid" : "39cbd47e0fd2ac01",
+          "parentUid" : "7bd9ddbcfe5d31d3cd4ab410233a0bb9",
+          "status" : "broken",
+          "time" : {
+            "start" : 1594723322989,
+            "stop" : 1594723336108,
+            "duration" : 13119
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "admin123", "Admin", "Admin", "Bhavin Kumar", "Dqweruiop", "Enabled", "Dima50065", "Bhavin Kumar", "admin123", "Admin", "Dima50065", "Enabled", "Admin", "Dqweruiop" ]
+        } ],
+        "uid" : "7bd9ddbcfe5d31d3cd4ab410233a0bb9"
+      } ],
+      "uid" : "7e5788cae99f6931ff234f06cfecd0ec"
+    } ],
+    "uid" : "9fa7615650b2ed7f129323977cae83e6"
+  }, {
+    "name" : "SQLExample",
+    "children" : [ {
+      "name" : "TestSQLData",
+      "children" : [ {
+        "name" : "com.Orange.Education.SQLDataTest",
+        "children" : [ {
+          "name" : "GetFieldAttributes",
+          "uid" : "8b173854a0bb1733",
+          "parentUid" : "cabdf5c88504a479dab2c7abcd451df9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594723342116,
+            "stop" : 1594723344264,
+            "duration" : 2148
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "jdbc:mysql://127.0.0.1:3306/emp", "chrome", "Dima650065", "root" ]
+        } ],
+        "uid" : "cabdf5c88504a479dab2c7abcd451df9"
+      } ],
+      "uid" : "03dc5a404b1ef71946c6a40e5604509a"
+    } ],
+    "uid" : "43377f9733bca49be295a2489d4f2bee"
+  }, {
+    "name" : "SuiteSmartCode",
+    "children" : [ {
+      "name" : "Test",
+      "children" : [ {
+        "name" : "com.Orange.Education.ZeroEffortAutomation.SmartCode",
+        "children" : [ {
+          "name" : "GetFieldAttributes",
+          "uid" : "5c211feb2c83ce1",
+          "parentUid" : "adc0c230bf239af9413ff1606963201e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594723349053,
+            "stop" : 1594723351154,
+            "duration" : 2101
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome" ]
+        } ],
+        "uid" : "adc0c230bf239af9413ff1606963201e"
+      } ],
+      "uid" : "b0fe97b4f7b80ce2d9e68e7baf122aaa"
+    } ],
+    "uid" : "20398cdbd7fdf5225a41f58c004280da"
+  }, {
+    "name" : "SuiteDataProvider",
+    "children" : [ {
+      "name" : "TestDataProvider",
+      "children" : [ {
+        "name" : "com.Orange.Education.DataProviderExample",
+        "children" : [ {
+          "name" : "LogInByDataProvider",
+          "uid" : "f332928292cc7da9",
+          "parentUid" : "7f6b1c796df4a1869dde3b877d708f73",
+          "status" : "broken",
+          "time" : {
+            "start" : 1594723363565,
+            "stop" : 1594723375431,
+            "duration" : 11866
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Admin1", "admin1234" ]
+        }, {
+          "name" : "LogInByDataProvider",
+          "uid" : "77ab95654a9c1e35",
+          "parentUid" : "7f6b1c796df4a1869dde3b877d708f73",
+          "status" : "broken",
+          "time" : {
+            "start" : 1594723376318,
+            "stop" : 1594723388580,
+            "duration" : 12262
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Admin", "admin1234" ]
+        }, {
+          "name" : "LogInByDataProvider",
+          "uid" : "638e5f0e87483385",
+          "parentUid" : "7f6b1c796df4a1869dde3b877d708f73",
+          "status" : "broken",
+          "time" : {
+            "start" : 1594723389470,
+            "stop" : 1594723401317,
+            "duration" : 11847
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Admin1", "admin123" ]
+        }, {
+          "name" : "LogInByDataProvider",
+          "uid" : "a687bb0b724b6d88",
+          "parentUid" : "7f6b1c796df4a1869dde3b877d708f73",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594723402224,
+            "stop" : 1594723406135,
+            "duration" : 3911
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Admin", "admin123" ]
+        }, {
+          "name" : "LogInByDataProvider",
+          "uid" : "3c572d58929d290e",
+          "parentUid" : "7f6b1c796df4a1869dde3b877d708f73",
+          "status" : "broken",
+          "time" : {
+            "start" : 1594723407036,
+            "stop" : 1594723418861,
+            "duration" : 11825
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "null", "null" ]
+        } ],
+        "uid" : "7f6b1c796df4a1869dde3b877d708f73"
+      } ],
+      "uid" : "b5f0f2a5986257b139a8368a95d16042"
+    } ],
+    "uid" : "365a77ba9fddfc1eb9163c9436bdcb4f"
+  }, {
+    "name" : "HttpSuite",
+    "children" : [ {
+      "name" : "HttpRequest",
+      "children" : [ {
+        "name" : "com.Orange.Education.API.httpsEducation",
+        "children" : [ {
+          "name" : "CheckButtonByHttpGetRequest",
+          "uid" : "f08fd9d9f833da6d",
+          "parentUid" : "c83fa7f543d7bddc948cbf248c51c038",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594723572715,
+            "stop" : 1594723572730,
+            "duration" : 15
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "CheckTextByHttpGetRequest",
+          "uid" : "e11bac5beffd47fc",
+          "parentUid" : "c83fa7f543d7bddc948cbf248c51c038",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594723572865,
+            "stop" : 1594723572867,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "HttpGet",
+          "uid" : "b318b0294bf42671",
+          "parentUid" : "c83fa7f543d7bddc948cbf248c51c038",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594723572874,
+            "stop" : 1594723573786,
+            "duration" : 912
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "POSTRequest",
+          "uid" : "744aca506a952c4f",
+          "parentUid" : "c83fa7f543d7bddc948cbf248c51c038",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594723573793,
+            "stop" : 1594723573794,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c83fa7f543d7bddc948cbf248c51c038"
+      } ],
+      "uid" : "ba26254501e56608356fdbedcfb8fb16"
+    }, {
+      "name" : "RestAssuredTest",
+      "children" : [ {
+        "name" : "com.Orange.Education.RestAssuredTest.ApiTestRestAssure",
+        "children" : [ {
+          "name" : "TestGetRequest",
+          "uid" : "77aa8ac051f71e3c",
+          "parentUid" : "22fb6839dc8edc803869d2c0084f2ae1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594723573858,
+            "stop" : 1594723577453,
+            "duration" : 3595
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "TestPatch",
+          "uid" : "abed5d41753184b",
+          "parentUid" : "22fb6839dc8edc803869d2c0084f2ae1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594723577459,
+            "stop" : 1594723577461,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "TestPostRequest",
+          "uid" : "792c909c0253d5e8",
+          "parentUid" : "22fb6839dc8edc803869d2c0084f2ae1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1594723577468,
+            "stop" : 1594723578012,
+            "duration" : 544
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "22fb6839dc8edc803869d2c0084f2ae1"
+      } ],
+      "uid" : "c22285e8c0ca42612f473852eae94546"
+    } ],
+    "uid" : "dde143fe60972087323a552a1c80e34f"
   } ]
 }

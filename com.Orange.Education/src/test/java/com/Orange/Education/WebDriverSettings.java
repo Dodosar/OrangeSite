@@ -3,32 +3,17 @@ package com.Orange.Education;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.PropertyConfigurator;
-import org.openqa.selenium.Platform;
-import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxBinary;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.remote.CapabilityType;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
-
-import Pages.Orangehrmlive;
-import io.github.bonigarcia.wdm.ChromeDriverManager;
 
 public class WebDriverSettings {
 
-	public WebDriver driver;
+	public static WebDriver driver;
 
 	/*
 	 * @BeforeClass public static void setupClass() {
@@ -51,8 +36,9 @@ public class WebDriverSettings {
 		driver = new ChromeDriver(chromeOptions);
 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		WebDriverWait wait = new WebDriverWait(driver, 30, 500);
+		//WebDriverWait wait = new WebDriverWait(driver, 30, 500);
 		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
 
 		String log4jConfigFile = System.getProperty("user.dir") + File.separator
 				+ "\\src\\main\\resources\\log4j.properties";
@@ -61,12 +47,9 @@ public class WebDriverSettings {
 
 	}
 
-	@AfterTest
-	public void Teardown() {
-		if (driver != null) {
-			driver.quit();
-		}
-	}
+	
+	 @AfterTest public void Teardown() { if (driver != null) { driver.quit(); } }
+	 
 
 	/*
 	 * @BeforeTest public void setUpFF() throws Exception { FirefoxBinary
@@ -80,7 +63,5 @@ public class WebDriverSettings {
 	 * WebDriverWait wait = new WebDriverWait(driver, 30,500);
 	 * driver.manage().window().maximize(); }
 	 */
-	
-
 
 }

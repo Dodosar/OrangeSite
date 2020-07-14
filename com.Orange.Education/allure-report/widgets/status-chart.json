@@ -1,60 +1,290 @@
 [ {
-  "uid" : "687dce5521103197",
-  "name" : "CheckTheTitle",
+  "uid" : "39cbd47e0fd2ac01",
+  "name" : "AddNewUserByParametersInXml",
   "time" : {
-    "start" : 1594211767078,
-    "stop" : 1594211767319,
-    "duration" : 241
-  },
-  "status" : "passed",
-  "severity" : "trivial"
-}, {
-  "uid" : "e2743393fbc5485f",
-  "name" : "CheckTheActiveButton",
-  "time" : {
-    "start" : 1594211764726,
-    "stop" : 1594211766498,
-    "duration" : 1772
+    "start" : 1594723322989,
+    "stop" : 1594723336108,
+    "duration" : 13119
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "30bf450848a8174b",
-  "name" : "JSExecutorTest",
+  "uid" : "abed5d41753184b",
+  "name" : "TestPatch",
   "time" : {
-    "start" : 1594211772028,
-    "stop" : 1594211774429,
-    "duration" : 2401
+    "start" : 1594723577459,
+    "stop" : 1594723577461,
+    "duration" : 2
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8a49ca8a2f68a26",
-  "name" : "ForgotPassword",
+  "uid" : "638e5f0e87483385",
+  "name" : "LogInByDataProvider",
   "time" : {
-    "start" : 1594211772020,
-    "stop" : 1594211772021,
+    "start" : 1594723389470,
+    "stop" : 1594723401317,
+    "duration" : 11847
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "9fe5b33a6a20a48e",
+  "name" : "logIn",
+  "time" : {
+    "start" : 1594723313235,
+    "stop" : 1594723318350,
+    "duration" : 5115
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "792c909c0253d5e8",
+  "name" : "TestPostRequest",
+  "time" : {
+    "start" : 1594723577468,
+    "stop" : 1594723578012,
+    "duration" : 544
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c211feb2c83ce1",
+  "name" : "GetFieldAttributes",
+  "time" : {
+    "start" : 1594723349053,
+    "stop" : 1594723351154,
+    "duration" : 2101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68eee9998667eaf4",
+  "name" : "AddNewUser",
+  "time" : {
+    "start" : 1594723293653,
+    "stop" : 1594723306536,
+    "duration" : 12883
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fcbc2099230b01c9",
+  "name" : "JSExecutorTest",
+  "time" : {
+    "start" : 1594723278364,
+    "stop" : 1594723280950,
+    "duration" : 2586
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0da93ef5afe4703",
+  "name" : "JSExecutorTest",
+  "time" : {
+    "start" : 1594723262319,
+    "stop" : 1594723262320,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "77ab95654a9c1e35",
+  "name" : "LogInByDataProvider",
+  "time" : {
+    "start" : 1594723376318,
+    "stop" : 1594723388580,
+    "duration" : 12262
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "e11bac5beffd47fc",
+  "name" : "CheckTextByHttpGetRequest",
+  "time" : {
+    "start" : 1594723572865,
+    "stop" : 1594723572867,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c572d58929d290e",
+  "name" : "LogInByDataProvider",
+  "time" : {
+    "start" : 1594723407036,
+    "stop" : 1594723418861,
+    "duration" : 11825
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "215a942f33408eee",
+  "name" : "VerifyNewUser",
+  "time" : {
+    "start" : 1594723307342,
+    "stop" : 1594723307342,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8b173854a0bb1733",
+  "name" : "GetFieldAttributes",
+  "time" : {
+    "start" : 1594723342116,
+    "stop" : 1594723344264,
+    "duration" : 2148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d1c8ee17ea7544c",
+  "name" : "CorrectLogin",
+  "time" : {
+    "start" : 1594723268710,
+    "stop" : 1594723273517,
+    "duration" : 4807
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "29cc6f1900085d12",
+  "name" : "CheckTheTitle",
+  "time" : {
+    "start" : 1594723275482,
+    "stop" : 1594723275856,
+    "duration" : 374
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "b318b0294bf42671",
+  "name" : "HttpGet",
+  "time" : {
+    "start" : 1594723572874,
+    "stop" : 1594723573786,
+    "duration" : 912
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "744aca506a952c4f",
+  "name" : "POSTRequest",
+  "time" : {
+    "start" : 1594723573793,
+    "stop" : 1594723573794,
     "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "479f5811809d3134",
+  "uid" : "2838735cab50459f",
+  "name" : "CheckTheActiveButton",
+  "time" : {
+    "start" : 1594723276936,
+    "stop" : 1594723277388,
+    "duration" : 452
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b6d5c4ea76a96f5",
   "name" : "CorrectLogin",
   "time" : {
-    "start" : 1594211767329,
-    "stop" : 1594211772009,
-    "duration" : 4680
+    "start" : 1594723287039,
+    "stop" : 1594723292697,
+    "duration" : 5658
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "335a364b44f47ab6",
+  "uid" : "77aa8ac051f71e3c",
+  "name" : "TestGetRequest",
+  "time" : {
+    "start" : 1594723573858,
+    "stop" : 1594723577453,
+    "duration" : 3595
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f332928292cc7da9",
+  "name" : "LogInByDataProvider",
+  "time" : {
+    "start" : 1594723363565,
+    "stop" : 1594723375431,
+    "duration" : 11866
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "a687bb0b724b6d88",
+  "name" : "LogInByDataProvider",
+  "time" : {
+    "start" : 1594723402224,
+    "stop" : 1594723406135,
+    "duration" : 3911
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5dece45aaeb9f64a",
+  "name" : "JSExecutorTest",
+  "time" : {
+    "start" : 1594723255383,
+    "stop" : 1594723261134,
+    "duration" : 5751
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4afb2be5083a18b8",
+  "name" : "logInWithParametrs",
+  "time" : {
+    "start" : 1594723319226,
+    "stop" : 1594723322170,
+    "duration" : 2944
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f08fd9d9f833da6d",
+  "name" : "CheckButtonByHttpGetRequest",
+  "time" : {
+    "start" : 1594723572715,
+    "stop" : 1594723572730,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc3655e32fafe715",
   "name" : "CheckTheText",
   "time" : {
-    "start" : 1594211766638,
-    "stop" : 1594211767071,
-    "duration" : 433
+    "start" : 1594723266111,
+    "stop" : 1594723267810,
+    "duration" : 1699
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "909161bdb60dc676",
+  "name" : "JSExecutorTest",
+  "time" : {
+    "start" : 1594723239056,
+    "stop" : 1594723246877,
+    "duration" : 7821
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e732657231ba69b2",
+  "name" : "ForgotPassword",
+  "time" : {
+    "start" : 1594723274485,
+    "stop" : 1594723274488,
+    "duration" : 3
   },
   "status" : "passed",
   "severity" : "normal"

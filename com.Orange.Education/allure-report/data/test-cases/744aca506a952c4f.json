@@ -1,0 +1,66 @@
+{
+  "uid" : "744aca506a952c4f",
+  "name" : "POSTRequest",
+  "fullName" : "com.Orange.Education.API.httpsEducation.POSTRequest",
+  "historyId" : "c9a62c18dae59fbadcfd5ed03000ec86",
+  "time" : {
+    "start" : 1594723573793,
+    "stop" : 1594723573794,
+    "duration" : 1
+  },
+  "description" : "Test POST METHOD",
+  "descriptionHtml" : "<p>Test POST METHOD</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.Orange.Education.API.httpsEducation"
+  }, {
+    "name" : "testClass",
+    "value" : "com.Orange.Education.API.httpsEducation"
+  }, {
+    "name" : "testMethod",
+    "value" : "POSTRequest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "HttpSuite"
+  }, {
+    "name" : "suite",
+    "value" : "HttpRequest"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.Orange.Education.API.httpsEducation"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "8412@TYUDM.pool-1-thread-1(16)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e6f0784ecfc8e55d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723008547,
+        "stop" : 1594723008548,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "744aca506a952c4f.json",
+  "parameterValues" : [ ]
+}

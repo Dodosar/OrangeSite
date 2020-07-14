@@ -12,11 +12,11 @@ import org.w3c.css.sac.CSSException;
 import Data.Elements;
 
 public class Page {
-	protected WebDriver driver;
+	protected static WebDriver driver;
 
 	public Page(WebDriver driver) {
 		// TODO Auto-generated constructor stub
-		this.driver = driver;
+		Page.setDriver(driver);
 	}
 
 	public Page then() {
@@ -29,12 +29,12 @@ public class Page {
 		return this;
 	}
 
-	public WebElement getElement(String element) {
+	public static WebElement getElement(String element) {
 		// TODO Auto-generated method stub
-		return driver.findElement(By.xpath(getXpath(element)));
+		return getDriver().findElement(By.xpath(getXpath(element)));
 	}
 
-	private String getXpath(String element) {
+	public static String getXpath(String element) {
 		// TODO Auto-generated method stub
 		return Elements.getEntryForElementName(element).getXpath();
 	}
@@ -56,18 +56,16 @@ public class Page {
 
 	public void CheckTheTitle(String title) {
 		try {
-			Assert.assertEquals(driver.getTitle(), title);
+			Assert.assertEquals(getDriver().getTitle(), title);
 		} catch (NoSuchElementException e) {
 			e.getMessage();
 		}
 	}
-	
-	
+
 	public Page CheckTheColor(String element, String color) {
 		try {
-		Assert.assertEquals(getElement(element).getCssValue("color"),color);
-		}
-		catch(CSSException e) {
+			Assert.assertEquals(getElement(element).getCssValue("color"), color);
+		} catch (CSSException e) {
 			e.getMessage();
 		}
 		return this;
@@ -76,22 +74,51 @@ public class Page {
 	public void CheckActiveElement(String element) {
 		// TODO Auto-generated method stub
 		try {
-		getElement(element).isEnabled();
-		}
-		catch(ElementNotInteractableException e) {
+			getElement(element).isEnabled();
+		} catch (ElementNotInteractableException e) {
 			e.getMessage();
 		}
 	}
-	
-	public void ClickElement(String element) {
-		// TODO Auto-generated method stub
-		getElement(element).click();		
+
+	public ViewSystemUser ClickAdmin(String element) {
+		try {
+			getElement(element).click();
+		} catch (NoSuchElementException e) {
+			e.getMessage();
+		}
+		return new ViewSystemUser(getDriver());
 	}
 
-	public Object Click(String element) {
-		// TODO Auto-generated method stub
-		return null;
+	public Dashboard ClickDashBoard(String element) {
+		try {
+			getElement(element).click();
+			// new WebDriverWait(driver, 10)
+			// .until(ExpectedConditions.visibilityOfElementLocated(By.xpath(getXpath("admintab"))));
+		} catch (NoSuchElementException e) {
+			e.getMessage();
+		}
+		try {
+			Assert.assertEquals(getElement("admintab").getText(), "Admin");
+			System.out.println("true");
+		} catch (NoSuchElementException e) {
+			Assert.assertEquals(getElement("invalidcredentials").getText(), "Invalid credentials");
+		}
+		return new Dashboard(getDriver());
 	}
 
+	public Object EnterText(String element, String empname) {
+		// TODO Auto-generated method stub
+		getElement(element).sendKeys(empname);
+		return this;
+
+	}
+
+	public static WebDriver getDriver() {
+		return driver;
+	}
+
+	public static void setDriver(WebDriver driver) {
+		Page.driver = driver;
+	}
 
 }

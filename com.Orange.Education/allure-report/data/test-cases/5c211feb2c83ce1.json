@@ -1,0 +1,131 @@
+{
+  "uid" : "5c211feb2c83ce1",
+  "name" : "GetFieldAttributes",
+  "fullName" : "com.Orange.Education.ZeroEffortAutomation.SmartCode.GetFieldAttributes",
+  "historyId" : "6b3b4c889235da1ca06acebc41d2949a",
+  "time" : {
+    "start" : 1594723349053,
+    "stop" : 1594723351154,
+    "duration" : 2101
+  },
+  "description" : "Smart Code",
+  "descriptionHtml" : "<p>Smart Code</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUpRemote",
+    "time" : {
+      "start" : 1594723345341,
+      "stop" : 1594723349049,
+      "duration" : 3708
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "createObj",
+    "time" : {
+      "start" : 1594723349050,
+      "stop" : 1594723349050,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1594723352143,
+      "stop" : 1594723352213,
+      "duration" : 70
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.Orange.Education.ZeroEffortAutomation.SmartCode"
+  }, {
+    "name" : "testClass",
+    "value" : "com.Orange.Education.ZeroEffortAutomation.SmartCode"
+  }, {
+    "name" : "testMethod",
+    "value" : "GetFieldAttributes"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SuiteSmartCode"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.Orange.Education.ZeroEffortAutomation.SmartCode"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "14456@TYUDM.main(1)"
+  }, {
+    "name" : "epic",
+    "value" : "Fuctionality Testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "myBrowser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3681e9a40fbaf9fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594721261422,
+          "stop" : 1594721263485,
+          "duration" : 2063
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5c211feb2c83ce1.json",
+  "parameterValues" : [ "chrome" ]
+}

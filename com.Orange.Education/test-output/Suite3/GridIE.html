@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 09 12:54:10 EEST 2020</td>
+<td>Started on:</td><td>Mon Jul 13 22:58:44 EEST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>1 seconds (1338 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (54 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,7 +77,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.Orange.Education.GridExamples.StandAloneExample.setUpRemote()'><b>setUpRemote</b><br>Test class: com.Orange.Education.GridExamples.StandAloneExample<br>Parameters: IE</td>
 <td><div><pre>org.openqa.selenium.WebDriverException: First match w3c capabilities is zero length
-Command duration or timeout: 152 milliseconds
+Command duration or timeout: 12 milliseconds
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
@@ -101,10 +101,6 @@ Command duration or timeout: 152 milliseconds
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
 	at com.Orange.Education.GridExamples.GridWebDriverSettings.setUpRemote(GridWebDriverSettings.java:40)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
 Caused by: org.openqa.selenium.WebDriverException: First match w3c capabilities is zero length
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;TYUDM&apos;, ip: &apos;192.168.1.154&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;11.0.5&apos;
@@ -119,9 +115,9 @@ Driver info: driver.version: unknown
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.lang.Thread.run(Thread.java:834)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1463498848", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1463498848'><pre>org.openqa.selenium.WebDriverException: First match w3c capabilities is zero length
-Command duration or timeout: 152 milliseconds
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace670503317", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace670503317'><pre>org.openqa.selenium.WebDriverException: First match w3c capabilities is zero length
+Command duration or timeout: 12 milliseconds
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -160,13 +156,17 @@ Command duration or timeout: 152 milliseconds
 	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
 	at org.testng.TestRunner.run(TestRunner.java:609)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Caused by: org.openqa.selenium.WebDriverException: First match w3c capabilities is zero length
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;TYUDM&apos;, ip: &apos;192.168.1.154&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;11.0.5&apos;
@@ -214,7 +214,7 @@ Driver info: driver.version: unknown
 <td title='com.Orange.Education.GridExamples.StandAloneExample.JSExecutorTest()'><b>JSExecutorTest</b><br>Test class: com.Orange.Education.GridExamples.StandAloneExample</td>
 <td></td>
 <td>0</td>
-<td>com.Orange.Education.GridExamples.StandAloneExample@19ee1ae6</td></tr>
+<td>com.Orange.Education.GridExamples.StandAloneExample@158f4cfe</td></tr>
 </table><p>
 </body>
 </html>

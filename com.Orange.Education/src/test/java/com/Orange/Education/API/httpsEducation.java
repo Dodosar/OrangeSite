@@ -2,7 +2,6 @@ package com.Orange.Education.API;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Scanner;
 
@@ -11,7 +10,6 @@ import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
 
 import Pages.MainPage;
-import Pages.Orangehrmlive;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Severity;
@@ -28,6 +26,8 @@ public class httpsEducation{
 	@Severity(SeverityLevel.BLOCKER)
 	@Test
 	public void HttpGet() throws IOException {
+		long threadId = Thread.currentThread().getId();
+		System.out.println("Thread HttpGet:" + threadId);
 		if (MainPage.isUrlValid(url)) {
 			URL obj = new URL(url);
 			// Opening Connection
@@ -58,6 +58,8 @@ public class httpsEducation{
 	@Description("Search Text by Http Request")
 	@Test
 	public void CheckTextByHttpGetRequest() {
+		long threadId = Thread.currentThread().getId();
+		System.out.println("Thread CheckTextByHttpGetRequest:" + threadId);
 		try {
 			 buffer.toString().contains("LOGIN Panel");			 	
 		}
@@ -70,6 +72,8 @@ public class httpsEducation{
 	@Description("Search Button by Http Request")
 	@Test
 	public void CheckButtonByHttpGetRequest() {
+		long threadId = Thread.currentThread().getId();
+		System.out.println("Thread CheckButtonByHttpGetRequest:" + threadId);
 		try {
 			 buffer.toString().contains("value=\"LOGIN\"");			 	
 		}

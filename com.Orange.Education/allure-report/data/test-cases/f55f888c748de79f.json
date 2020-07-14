@@ -1,0 +1,56 @@
+{
+  "uid" : "f55f888c748de79f",
+  "name" : "CheckTextByHttpGetRequest",
+  "fullName" : "com.Orange.Education.API.httpsEducation.CheckTextByHttpGetRequest",
+  "historyId" : "b78b6bebf384b96a1508b2048497c7d0",
+  "time" : {
+    "start" : 1594723007545,
+    "stop" : 1594723007547,
+    "duration" : 2
+  },
+  "description" : "Search Text by Http Request",
+  "descriptionHtml" : "<p>Search Text by Http Request</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.Orange.Education.API.httpsEducation"
+  }, {
+    "name" : "testClass",
+    "value" : "com.Orange.Education.API.httpsEducation"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckTextByHttpGetRequest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "HttpSuite"
+  }, {
+    "name" : "suite",
+    "value" : "HttpRequest"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.Orange.Education.API.httpsEducation"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "16160@TYUDM.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f55f888c748de79f.json",
+  "parameterValues" : [ ]
+}

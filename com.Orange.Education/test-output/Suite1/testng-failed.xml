@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite1]">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite1]">
   <test parallel="tests" name="TestCaseLoginPage(failed)">
     <classes>
       <class name="com.Orange.Education.TestTask">

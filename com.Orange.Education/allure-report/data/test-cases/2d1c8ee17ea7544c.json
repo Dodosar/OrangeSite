@@ -1,0 +1,212 @@
+{
+  "uid" : "2d1c8ee17ea7544c",
+  "name" : "CorrectLogin",
+  "fullName" : "com.Orange.Education.TestTask.CorrectLogin",
+  "historyId" : "5be983305f0f57b3e060f6ffae381f29",
+  "time" : {
+    "start" : 1594723268710,
+    "stop" : 1594723273517,
+    "duration" : 4807
+  },
+  "description" : "Verify Sign In fucntionality",
+  "descriptionHtml" : "<p>Verify Sign In fucntionality</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1594723262349,
+      "stop" : 1594723266108,
+      "duration" : 3759
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "createObject",
+    "time" : {
+      "start" : 1594723266108,
+      "stop" : 1594723266109,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify Sign In fucntionality",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Enter username username and check attribute id ",
+      "time" : {
+        "start" : 1594723269107,
+        "stop" : 1594723269224,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "string",
+        "value" : "username"
+      }, {
+        "name" : "value",
+        "value" : "Admin"
+      }, {
+        "name" : "attribute",
+        "value" : "id"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter password password and check attribute id ",
+      "time" : {
+        "start" : 1594723269225,
+        "stop" : 1594723269391,
+        "duration" : 166
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "string",
+        "value" : "password"
+      }, {
+        "name" : "value",
+        "value" : "admin123"
+      }, {
+        "name" : "attribute",
+        "value" : "id"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Teardown",
+    "time" : {
+      "start" : 1594723281897,
+      "stop" : 1594723283293,
+      "duration" : 1396
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.Orange.Education.TestTask"
+  }, {
+    "name" : "testClass",
+    "value" : "com.Orange.Education.TestTask"
+  }, {
+    "name" : "testMethod",
+    "value" : "CorrectLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SuiteLogIN"
+  }, {
+    "name" : "suite",
+    "value" : "TestCaseLoginPage"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.Orange.Education.TestTask"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "14456@TYUDM.TestNG(22)"
+  }, {
+    "name" : "epic",
+    "value" : "Смоук тестирование"
+  }, {
+    "name" : "feature",
+    "value" : "Регистрация"
+  }, {
+    "name" : "story",
+    "value" : "Регистрация нового пользователя"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "7fdfd5a1bab210f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594721348295,
+          "stop" : 1594721352621,
+          "duration" : 4326
+        }
+      }, {
+        "uid" : "479f5811809d3134",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594211767329,
+          "stop" : 1594211772009,
+          "duration" : 4680
+        }
+      }, {
+        "uid" : "10016709260e1fcd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594130013632,
+          "stop" : 1594130018160,
+          "duration" : 4528
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2d1c8ee17ea7544c.json",
+  "parameterValues" : [ ]
+}

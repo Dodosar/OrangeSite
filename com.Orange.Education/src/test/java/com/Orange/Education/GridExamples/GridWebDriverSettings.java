@@ -14,7 +14,7 @@ import org.testng.annotations.Parameters;
 
 public class GridWebDriverSettings {
 	
-	public WebDriver driver;	
+	public RemoteWebDriver driver;	
 	
 	@BeforeTest
 	@Parameters("myBrowser")	

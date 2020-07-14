@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteSmartCode">
+	<parameter name="myBrowser" value="chrome" />
+	<listeners>
+		<listener class-name="Properties.Listeners" />
+	</listeners>
+	<test thread-count="1" name="Test">
+		<classes>
+			<class
+				name="com.Orange.Education.ZeroEffortAutomation.SmartCode" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- SuiteSmartCode -->

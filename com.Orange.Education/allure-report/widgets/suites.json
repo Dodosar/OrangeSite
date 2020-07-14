@@ -1,15 +1,92 @@
 {
-  "total" : 1,
+  "total" : 8,
   "items" : [ {
-    "uid" : "2c8837b97293ea01a164a5cd7048ad56",
-    "name" : "Default suite",
+    "uid" : "365a77ba9fddfc1eb9163c9436bdcb4f",
+    "name" : "SuiteDataProvider",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "1e29adad4e0bdaad7dda70088aaddade",
+    "name" : "SuiteGrid",
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "9fa7615650b2ed7f129323977cae83e6",
+    "name" : "ParametersSuite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "f614cc2417e33c03d3fc5a10efd8e5bb",
+    "name" : "SuiteAdmin",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "dde143fe60972087323a552a1c80e34f",
+    "name" : "HttpSuite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "68180eb3ad42d84fe7f045f434853c2f",
+    "name" : "SuiteLogIN",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
       "unknown" : 0,
       "total" : 6
+    }
+  }, {
+    "uid" : "43377f9733bca49be295a2489d4f2bee",
+    "name" : "SQLExample",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "20398cdbd7fdf5225a41f58c004280da",
+    "name" : "SuiteSmartCode",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   } ]
 }

@@ -1,12 +1,9 @@
 package com.Orange.Education;
 
-import java.io.File;
-
-import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
 import Pages.Orangehrmlive;
 import Properties.TestData;
 import io.qameta.allure.Description;
@@ -29,7 +26,7 @@ public class TestTask extends WebDriverSettings {
 
 	
 	@Epic(value = "Смоук тестирование")
-	@Test//(priority = 4)
+	@Test(priority = 0)
 	public void CheckTheText() {
 		log.info("CheckTheText");
 		log.debug("CheckTheText");
@@ -40,23 +37,8 @@ public class TestTask extends WebDriverSettings {
 	}
 	
 	@Epic(value = "Смоук тестирование")
-	@Feature(value = "Регистрация")
-	@Story(value = "Регистрация нового пользователя")
-	@Severity(SeverityLevel.BLOCKER)
-	@Description("Verify Sign In fucntionality")
-	@Test//(priority = 0)
-	public void CorrectLogin() {
-		log.info("CorrectLogin");
-		Orangehrmlive.mainPage().EnterUserName("username", TestData.value("CorrectUsername"), "id").then()
-				.EnterPassword("password", TestData.value("CorrectPassword"), "id").then().Click("loginbtn")
-				.logout("logout").CheckTheTextInMainPage("logintext", TestData.value("loginText"), "id");
-		System.out.println("CorrectLogin with Thread Id:- "
-				+ Thread.currentThread().getId());
-	}
-	
-	@Epic(value = "Смоук тестирование")
 	@Severity(SeverityLevel.TRIVIAL)
-	@Test//(priority = 1)
+	@Test(priority = 1)
 	public void CheckTheTitle() 
 	{
 		log.info("CheckTheTitle");
@@ -65,15 +47,14 @@ public class TestTask extends WebDriverSettings {
 				+ Thread.currentThread().getId());
 	}
 
-	@Test//(priority = 2)
+	@Test(priority = 2)
 	public void CheckTheActiveButton() {
 		log.info("CheckTheText");
-		Orangehrmlive.mainPage().CheckTheColor("loginbt", TestData.value("colorOfLoginBtn"))
+		Orangehrmlive.mainPage().CheckTheColor("loginbtn", TestData.value("colorOfLoginBtn"))
 				.CheckActiveElement("loginbtn");
 		System.out.println("CheckTheActiveButton with Thread Id:- "
 				+ Thread.currentThread().getId());
 	}
-
 	
 	
 	@Test
@@ -83,13 +64,29 @@ public class TestTask extends WebDriverSettings {
 		
 	}
 	
-	@Test//(priority = 5)
+	@Test(priority = 5)
 	public void JSExecutorTest() {
 		log.info("JSExecutorTest");
 		Orangehrmlive.mainPage().EnterUserName("username", TestData.value("CorrectUsername"), "id").then()
-		.EnterPassword("password", TestData.value("CorrectPassword"), "id").then().Click("loginbtn")
+		.EnterPassword("password", TestData.value("CorrectPassword"), "id").then().ClickDashBoard("loginbtn")
 		.logoutJSExecutor("logout").CheckTheTextInMainPage("logintext", TestData.value("loginText"), "id");
 System.out.println("CorrectLogin with Thread Id:- "
 		+ Thread.currentThread().getId());
+	}
+	
+	
+	@Epic(value = "Смоук тестирование")
+	@Feature(value = "Регистрация")
+	@Story(value = "Регистрация нового пользователя")
+	@Severity(SeverityLevel.BLOCKER)
+	@Description("Verify Sign In fucntionality")
+	@Test(priority = 0)
+	public void CorrectLogin() {
+		log.info("CorrectLogin");
+		Orangehrmlive.mainPage().EnterUserName("username", TestData.value("CorrectUsername"), "id").then()
+				.EnterPassword("password", TestData.value("CorrectPassword"), "id").then().ClickDashBoard("loginbtn")
+				.logout("logout").CheckTheTextInMainPage("logintext", TestData.value("loginText"), "id");
+		System.out.println("CorrectLogin with Thread Id:- "
+				+ Thread.currentThread().getId());
 	}
 }

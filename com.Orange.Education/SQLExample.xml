@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SQLExample">
+	<parameter name="myBrowser" value="chrome" />
+	<parameter name="username" value="root" />
+	<parameter name="password" value="Dima650065" />
+	<parameter name="dbUrl" value="jdbc:mysql://127.0.0.1:3306/emp" />
+	<listeners>
+		<listener class-name="Properties.Listeners" />
+	</listeners>
+  <test thread-count="5" name="TestSQLData">
+    <classes>
+      <class name="com.Orange.Education.SQLDataTest"/>
+    </classes>
+  </test> <!-- TestSQLData -->
+</suite> <!-- SQLExample -->

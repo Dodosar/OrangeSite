@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [SQLExample]">
+  <parameter name="password" value="Dima650065"/>
+  <parameter name="myBrowser" value="chrome"/>
+  <parameter name="dbUrl" value="jdbc:mysql://127.0.0.1:3306/emp"/>
+  <parameter name="username" value="root"/>
+  <listeners>
+    <listener class-name="Properties.Listeners"/>
+  </listeners>
+  <test parallel="none" name="TestSQLData(failed)">
+    <classes>
+      <class name="com.Orange.Education.SQLDataTest">
+        <methods>
+          <include name="GetFieldAttributes"/>
+          <include name="setUpRemote"/>
+          <include name="ConnectionToDb"/>
+          <include name="TearDown"/>
+          <include name="createObj"/>
+          <include name="CloseConnection"/>
+        </methods>
+      </class> <!-- com.Orange.Education.SQLDataTest -->
+    </classes>
+  </test> <!-- TestSQLData(failed) -->
+</suite> <!-- Failed suite [SQLExample] -->

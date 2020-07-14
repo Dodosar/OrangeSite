@@ -1,17 +1,7 @@
 package com.Orange.Education.GridExamples;
 
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.concurrent.TimeUnit;
-
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Platform;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.Orange.Education.TestTask;
@@ -44,7 +34,7 @@ public class StandAloneExample extends GridWebDriverSettings {
 	public void JSExecutorTest() {
 		log.info("JSExecutorTest");
 		Orangehrmlive.mainPage().EnterUserName("username", TestData.value("CorrectUsername"), "id").then()
-		.EnterPassword("password", TestData.value("CorrectPassword"), "id").then().Click("loginbtn")
+		.EnterPassword("password", TestData.value("CorrectPassword"), "id").then().ClickDashBoard("loginbtn")
 		.logoutJSExecutor("logout").CheckTheTextInMainPage("logintext", TestData.value("loginText"), "id");
 System.out.println("CorrectLogin with Thread Id:- "
 		+ Thread.currentThread().getId());
