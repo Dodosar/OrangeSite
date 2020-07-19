@@ -30,7 +30,7 @@ public class AdminPageTest extends WebDriverSettings {
 	@Test(priority = 0)
 	public void CorrectLogin() {
 		Orangehrmlive.mainPage().EnterUserName("username", TestData.value("CorrectUsername"), "id").then()
-				.EnterPassword("password", TestData.value("CorrectPassword"), "id").then().ClickDashBoard("loginbtn");
+				.EnterPassword("password", TestData.value("CorrectPassword"), "id").ClickDashBoard("loginbtn");
 		System.out.println("CorrectLogin with Thread Id:- " + Thread.currentThread().getId());
 	}
 

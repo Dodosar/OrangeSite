@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [ParametersSuite]">
+  <parameter name="employeeName" value="Bhavin Kumar"/>
+  <parameter name="CorPassword" value="admin123"/>
+  <parameter name="inCorrectName" value="Admin"/>
+  <parameter name="password" value="Dima50065"/>
+  <parameter name="CorrectName" value="Admin"/>
+  <parameter name="userRole" value="Admin"/>
+  <parameter name="username" value="Dqweruiop"/>
+  <parameter name="status" value="Enabled"/>
+  <parameter name="inCorPassword" value="admin123"/>
+  <test parallel="none" name="Test(failed)">
+    <parameter name="employeeName" value="Bhavin Kumar"/>
+    <parameter name="CorPassword" value="admin123"/>
+    <parameter name="inCorrectName" value="Admin"/>
+    <parameter name="password" value="Dima50065"/>
+    <parameter name="CorrectName" value="Admin"/>
+    <parameter name="userRole" value="Admin"/>
+    <parameter name="username" value="Dqweruiop"/>
+    <parameter name="status" value="Enabled"/>
+    <parameter name="inCorPassword" value="admin123"/>
+    <classes>
+      <class name="com.Orange.Education.ParametersExampleXML">
+        <methods>
+          <include name="Teardown"/>
+          <include name="logIn" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="setUpOrangeLive"/>
+        </methods>
+      </class> <!-- com.Orange.Education.ParametersExampleXML -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [ParametersSuite] -->

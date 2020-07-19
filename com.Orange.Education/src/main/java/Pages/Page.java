@@ -11,7 +11,7 @@ import org.w3c.css.sac.CSSException;
 
 import Data.Elements;
 
-public class Page {
+public abstract class Page {
 	protected static WebDriver driver;
 
 	public Page(WebDriver driver) {
@@ -89,7 +89,7 @@ public class Page {
 		return new ViewSystemUser(getDriver());
 	}
 
-	public Dashboard ClickDashBoard(String element) {
+	public void ClickDashBoard(String element) {
 		try {
 			getElement(element).click();
 			// new WebDriverWait(driver, 10)
@@ -97,13 +97,13 @@ public class Page {
 		} catch (NoSuchElementException e) {
 			e.getMessage();
 		}
-		try {
-			Assert.assertEquals(getElement("admintab").getText(), "Admin");
-			System.out.println("true");
-		} catch (NoSuchElementException e) {
-			Assert.assertEquals(getElement("invalidcredentials").getText(), "Invalid credentials");
-		}
-		return new Dashboard(getDriver());
+		/*
+		 * try { Assert.assertEquals(getElement("admintab").getText(), "Admin");
+		 * System.out.println("true"); } catch (NoSuchElementException e) {
+		 * Assert.assertEquals(getElement("invalidcredentials").getText(),
+		 * "Invalid credentials"); }
+		 */
+		//return new Dashboard(getDriver());
 	}
 
 	public Object EnterText(String element, String empname) {

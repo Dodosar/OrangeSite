@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [SuiteDataProvider]">
-  <test parallel="tests" name="TestDataProvider(failed)">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="com.Orange.Education.DataProviderExample">
+      <class name="com.Orange.Education.RestAssuredTest.ApiTestRestAssure">
         <methods>
-          <include name="LogInByDataProvider" invocation-numbers="1 2 3 5"/>
-          <include name="Teardown"/>
-          <include name="setUpOrangeLive"/>
-          <include name="setUp"/>
+          <include name="GetRequest"/>
+          <include name="setBaseUri"/>
         </methods>
-      </class> <!-- com.Orange.Education.DataProviderExample -->
+      </class> <!-- com.Orange.Education.RestAssuredTest.ApiTestRestAssure -->
     </classes>
-  </test> <!-- TestDataProvider(failed) -->
-</suite> <!-- Failed suite [SuiteDataProvider] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

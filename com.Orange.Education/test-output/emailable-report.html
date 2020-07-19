@@ -31,32 +31,71 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">HttpRequest</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi">0</td><td class="numi">1.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
-<tr class="stripe"><td style="text-align:left;padding-right:2em">RestAssuredTest</td><td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi">0</td><td class="numi">4.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
-<tr class="total"><td>Total</td>
-<td class="numi">7</td><td class="numi">7</td><td class="numi">0</td><td class="numi">0</td><td class="numi">5.4 seconds</td><td colspan="2">&nbsp;</td></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">5.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">HttpRequest &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="4">com.Orange.Education.API.httpsEducation</td><td><a href="#m1"><b>CheckButtonByHttpGetRequest</b>  </a></td><td class="numi">1</td><td>1594723572624</td><td class="numi">103</td></tr><tr class="passedodd"><td><a href="#m2"><b>CheckTextByHttpGetRequest</b>  </a></td><td class="numi">1</td><td>1594723572862</td><td class="numi">4</td></tr><tr class="passedodd"><td><a href="#m3"><b>HttpGet</b>  </a></td><td class="numi">1</td><td>1594723572871</td><td class="numi">914</td></tr><tr class="passedodd"><td><a href="#m4"><b>POSTRequest</b>  </a></td><td class="numi">1</td><td>1594723573790</td><td class="numi">3</td></tr>
-<tr><th colspan="4">RestAssuredTest &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="3">com.Orange.Education.RestAssuredTest.ApiTestRestAssure</td><td><a href="#m5"><b>TestGetRequest</b>  </a></td><td class="numi">1</td><td>1594723573855</td><td class="numi">3596</td></tr><tr class="passedodd"><td><a href="#m6"><b>TestPatch</b>  </a></td><td class="numi">1</td><td>1594723577457</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m7"><b>TestPostRequest</b>  </a></td><td class="numi">1</td><td>1594723577466</td><td class="numi">545</td></tr>
+<tr><th colspan="4">Default test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.Orange.Education.RestAssuredTest.ApiTestRestAssure</td><td><a href="#m1"><b>GetRequest</b>  </a></td><td class="numi">1</td><td>1595168199742</td><td class="numi">3101</td></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.Orange.Education.RestAssuredTest.ApiTestRestAssure</td><td><a href="#m2"><b>PatchBooking</b>  </a></td><td class="numi">1</td><td>1595168202957</td><td class="numi">905</td></tr>
 </table>
-<h1>HttpRequest</h1>
-<h2 id="m1">com.Orange.Education.API.httpsEducation:CheckButtonByHttpGetRequest</h2>
+<h1>Default test</h1>
+<h2 id="m1">com.Orange.Education.RestAssuredTest.ApiTestRestAssure:GetRequest</h2>
+<div style="padding-left:3em">
+<p>1 expectation failed.
+JSON path booking.firstname doesn&apos;t match.
+Expected: Dura
+  Actual: null
+</p>
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+<br/>at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+<br/>at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+<br/>at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+<br/>at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+<br/>at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+<br/>at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+<br/>at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+<br/>at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+<br/>at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+<br/>at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+<br/>at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+<br/>at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+<br/>at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+<br/>at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+<br/>at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+<br/>at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+<br/>at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+<br/>at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+<br/>at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+<br/>at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
+<br/>at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+<br/>at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+<br/>at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:212)
+<br/>at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+<br/>at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+<br/>at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+<br/>at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+<br/>at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+<br/>at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+<br/>at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+<br/>at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+<br/>at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+<br/>at com.Orange.Education.RestAssuredTest.ApiTestRestAssure.GetRequest(ApiTestRestAssure.java:192)
+<br/>25 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">com.Orange.Education.API.httpsEducation:HttpGet</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">com.Orange.Education.API.httpsEducation:CheckTextByHttpGetRequest</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">com.Orange.Education.API.httpsEducation:POSTRequest</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h1>RestAssuredTest</h1>
-<h2 id="m5">com.Orange.Education.RestAssuredTest.ApiTestRestAssure:TestGetRequest</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m6">com.Orange.Education.RestAssuredTest.ApiTestRestAssure:TestPatch</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m7">com.Orange.Education.RestAssuredTest.ApiTestRestAssure:TestPostRequest</h2>
+<h2 id="m2">com.Orange.Education.RestAssuredTest.ApiTestRestAssure:PatchBooking</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

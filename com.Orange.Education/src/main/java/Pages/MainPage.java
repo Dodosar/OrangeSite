@@ -11,6 +11,9 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import Properties.TestData;
 import interfaces.EnterValue;
@@ -19,6 +22,8 @@ import io.qameta.allure.Step;
 public class MainPage extends Page implements EnterValue {
 
 	static WebDriver driver;
+	
+	
 
 	protected static String url = "https://opensource-demo.orangehrmlive.com/";
 
@@ -27,6 +32,7 @@ public class MainPage extends Page implements EnterValue {
 		MainPage.driver = driver;
 		MainPage.driver.get(url);
 		// driver.manage().deleteAllCookies();
+		
 
 	}
 
@@ -79,8 +85,8 @@ public class MainPage extends Page implements EnterValue {
 		}
 	}
 
-	public Dashboard logIn() {
-		return EnterUserName("username", TestData.value("CorrectUsername"), "id").then()
+	public void logIn() {
+		EnterUserName("username", TestData.value("CorrectUsername"), "id").then()
 				.EnterPassword("password", TestData.value("CorrectPassword"), "id").then().ClickDashBoard("loginbtn");
 	}
 
@@ -102,7 +108,7 @@ public class MainPage extends Page implements EnterValue {
 		return this;
 	}
 
-	public static WebElement getRelevantElemnet(RemoteWebDriver rw, String type, String searchTxt) {
+	public static WebElement getRelevantElemnet(WebDriver rw, String type, String searchTxt) {
 
 		/// enter the value
 		List<WebElement> sb = driver.findElements(By.xpath(getXpath(type)));
@@ -127,6 +133,18 @@ public class MainPage extends Page implements EnterValue {
 		}
 
 		return null;
+	}
+
+	public static void isDisplayed(String string) {
+		// TODO Auto-generated method stub
+		try {
+			WebDriverWait wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(getXpath(string))));
+		getElement(string).isDisplayed();
+	}
+		catch(NoSuchElementException e) {
+			e.getMessage();
+		}
 	}
 
 

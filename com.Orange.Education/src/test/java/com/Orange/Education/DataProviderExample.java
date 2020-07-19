@@ -33,7 +33,8 @@ public class DataProviderExample extends WebDriverSettings {
 	public void LogInByDataProvider(String username, String password) {
 		Orangehrmlive.mainPage().ClearCookie();
 		Orangehrmlive.mainPage().EnterUserName("username", username, "id").then()
-				.EnterPassword("password", password, "id").then().ClickDashBoard("loginbtn").logout("logout");
+				.EnterPassword("password", password, "id").then().ClickDashBoard("loginbtn");
+				Orangehrmlive.dashboard().logout("logout");
 		System.out.println("LogInByDataProvider with Thread Id:- "
 				+ Thread.currentThread().getId());
 	}

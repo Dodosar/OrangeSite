@@ -15,9 +15,9 @@
 			<class name="com.Orange.Education.ParametersExampleXML">
 				<methods>
 					<include name="logIn"></include>
-					<include name="AddNewUserByParametersInXml"></include>
-					<!-- <exclude name="AddNewUserByParametersInXml"></exclude>-->
-					<include name="logInWithParametrs"></include>
+					<!-- <include name="AddNewUserByParametersInXml"></include>
+					<exclude name="AddNewUserByParametersInXml"></exclude>
+					<include name="logInWithParametrs"></include> -->
 				</methods>
 			</class>
 		</classes>

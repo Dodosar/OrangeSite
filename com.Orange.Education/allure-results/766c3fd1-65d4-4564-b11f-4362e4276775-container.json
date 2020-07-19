@@ -1,0 +1,1 @@
+{"uuid":"766c3fd1-65d4-4564-b11f-4362e4276775","name":"com.Orange.Education.RestAssuredTest.ApiTestRestAssure","start":1595168198592,"stop":1595168203922,"children":["a1392daa-6604-4504-bc85-0c27bba3e004","19a7237f-42c9-4b05-b58b-10e1c548fd31"],"befores":[{"name":"setBaseUri","status":"passed","stage":"finished","description":"","start":1595168198619,"stop":1595168199739}]}

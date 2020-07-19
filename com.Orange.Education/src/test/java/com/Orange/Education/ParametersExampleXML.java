@@ -7,6 +7,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import Pages.Orangehrmlive;
+import Utils.LoadCookieInfo;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -37,6 +38,9 @@ public class ParametersExampleXML extends WebDriverSettings{
 				.EnterPassword("password", CorPassword, "id").then().ClickDashBoard("loginbtn");
 		System.out.println("CorrectLogin1 with Thread Id:- "
 				+ Thread.currentThread().getId());
+		//LoadCookieInfo.LoadCookie(driver);
+		
+		
 	}
 	
 	@Epic(value = "SmokeTesting")
@@ -53,6 +57,7 @@ public class ParametersExampleXML extends WebDriverSettings{
 				"addpassword", password,
 				"addconfpassword", password)
 		.ClickSave("addsavebtn");		
+
 	}
 	
 	@Epic(value = "Смоук тестирование")

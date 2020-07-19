@@ -56,7 +56,24 @@
 			<artifactId>hamcrest</artifactId>
 			<version>2.2</version>
 		</dependency>
-
+		<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>4.3.0</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-path</artifactId>
+			<version>4.3.0</version>
+			<scope>test</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-simple</artifactId>
@@ -167,14 +184,11 @@
 				<configuration>
 					<testFailureIgnore>true</testFailureIgnore>
 					<suiteXmlFiles>
-						<suiteXmlFile>testngHttp.xml</suiteXmlFile>
-						<suiteXmlFile>testngGrid.xml</suiteXmlFile>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
-						<suiteXmlFile>testngAdminPage.xml</suiteXmlFile>
-						<suiteXmlFile>testngParameters.xml</suiteXmlFile>
-						<suiteXmlFile>SQLExample.xml</suiteXmlFile>
-						<suiteXmlFile>SmartCode.xml</suiteXmlFile>
-						<suiteXmlFile>testngDataProvider.xml</suiteXmlFile>
+						<!-- <suiteXmlFile>testngParameters.xml</suiteXmlFile> <suiteXmlFile>testngHttp.xml</suiteXmlFile> 
+							<suiteXmlFile>testngGrid.xml</suiteXmlFile> <suiteXmlFile>testngAdminPage.xml</suiteXmlFile> 
+							<suiteXmlFile>SQLExample.xml</suiteXmlFile> <suiteXmlFile>SmartCode.xml</suiteXmlFile> 
+							<suiteXmlFile>testngDataProvider.xml</suiteXmlFile> -->
 					</suiteXmlFiles>
 					<argLine>
 						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"

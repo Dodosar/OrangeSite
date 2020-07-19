@@ -377,3 +377,180 @@ INFO    2020-07-14 13:49:23,711 [TestNG] com.Orange.Education.TestTask  - Forgot
 INFO    2020-07-14 13:49:24,604 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
 INFO    2020-07-14 13:49:26,001 [TestNG] com.Orange.Education.TestTask  - CheckTheText
 INFO    2020-07-14 13:49:27,433 [TestNG] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 11:15:32,205 [main] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 11:15:32,208 [main] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 11:15:32,208 [main] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 11:15:34,576 [main] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 11:15:38,157 [main] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 11:15:38,164 [main] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 11:15:38,687 [main] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 11:15:49,268 [main] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 11:17:34,018 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 11:17:34,020 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 11:17:34,020 [TestNG] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 11:17:36,009 [TestNG] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 11:17:36,017 [TestNG] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 11:17:40,170 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 11:17:40,728 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 11:17:41,027 [TestNG] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 11:19:11,258 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 11:19:11,264 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 11:19:11,264 [TestNG] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 11:19:13,224 [TestNG] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 11:19:13,233 [TestNG] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 11:19:17,637 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 11:19:17,911 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 11:19:18,226 [TestNG] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 11:25:09,600 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 11:25:09,603 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 11:25:09,603 [TestNG] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 11:25:12,085 [TestNG] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 11:25:12,091 [TestNG] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 11:25:16,470 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 11:25:16,722 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 11:25:17,007 [TestNG] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 11:28:20,195 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 11:28:20,197 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 11:28:20,197 [TestNG] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 11:28:22,732 [TestNG] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 11:28:22,737 [TestNG] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 11:28:26,856 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 11:28:27,094 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 11:28:27,380 [TestNG] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 11:29:38,626 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 11:29:38,628 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 11:29:38,628 [TestNG] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 11:29:40,559 [TestNG] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 11:29:40,565 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 11:29:40,815 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 11:29:41,124 [TestNG] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 11:49:05,137 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 11:49:05,139 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 11:49:05,139 [TestNG] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 11:49:07,289 [TestNG] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 11:49:07,295 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 11:49:07,542 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 11:49:07,866 [TestNG] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 11:49:57,826 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 11:49:57,834 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 11:49:57,834 [TestNG] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 11:49:59,778 [TestNG] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 11:49:59,797 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 11:50:00,180 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 11:50:00,504 [TestNG] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 11:52:34,463 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 11:52:34,466 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 11:52:34,466 [TestNG] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 11:52:36,503 [TestNG] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 11:52:36,508 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 11:52:36,766 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 11:52:37,091 [TestNG] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 11:55:52,200 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 11:55:52,203 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 11:55:52,203 [TestNG] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 11:55:54,266 [TestNG] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 11:55:54,272 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 11:55:54,524 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 11:55:54,828 [TestNG] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 13:00:33,465 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 13:00:33,467 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 13:00:33,467 [TestNG] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 13:00:33,772 [TestNG] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 13:00:33,820 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 13:00:33,862 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 13:00:34,026 [TestNG] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 13:02:05,206 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 13:02:05,217 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 13:02:05,217 [TestNG] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 13:02:09,086 [TestNG] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 13:02:09,091 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 13:02:09,773 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 13:02:10,656 [TestNG] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 14:03:07,793 [pool-1-thread-1] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 14:03:23,803 [pool-2-thread-1] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 14:10:18,101 [pool-1-thread-1] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 14:10:37,392 [pool-2-thread-1] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 14:16:09,668 [pool-1-thread-1] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 14:16:24,858 [pool-2-thread-1] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 14:25:22,464 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 14:25:22,467 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 14:25:22,467 [TestNG] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 14:25:26,657 [TestNG] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 14:25:26,667 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 14:25:27,068 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 14:25:27,469 [TestNG] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 14:34:39,140 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 14:34:39,176 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 14:34:39,177 [TestNG] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 14:34:42,714 [TestNG] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 14:34:42,788 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 14:34:43,160 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 14:34:43,729 [TestNG] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 14:36:07,939 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 14:36:07,979 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 14:36:07,979 [TestNG] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 14:36:10,413 [TestNG] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 14:36:10,422 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 14:36:10,876 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 14:36:11,704 [TestNG] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 14:39:07,878 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 14:39:07,890 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 14:39:07,890 [TestNG] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 14:39:12,682 [TestNG] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 14:39:12,691 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 14:39:13,078 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 14:39:13,896 [TestNG] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 14:46:13,315 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 14:46:13,318 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 14:46:13,318 [TestNG] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 14:46:13,593 [TestNG] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 14:46:13,614 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 14:46:13,623 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 14:46:13,632 [TestNG] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 14:47:41,419 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 14:47:41,421 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 14:47:41,421 [TestNG] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 14:47:41,676 [TestNG] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 14:47:41,686 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 14:47:41,698 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 14:47:41,708 [TestNG] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 14:49:08,264 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 14:49:08,266 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 14:49:08,266 [TestNG] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 14:49:10,271 [TestNG] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 14:49:10,280 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 14:49:10,570 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 14:49:10,901 [TestNG] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 14:51:27,250 [main] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 14:51:27,258 [main] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 14:51:27,258 [main] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 14:51:29,278 [main] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 14:51:29,578 [main] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 14:51:29,931 [main] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 14:51:29,938 [main] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 14:56:51,523 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-15 14:56:51,526 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-15 14:56:51,526 [TestNG] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-15 14:56:55,926 [TestNG] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-15 14:56:56,454 [TestNG] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-15 14:56:56,784 [TestNG] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-15 14:56:56,792 [TestNG] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 14:57:03,619 [TestNG] com.Orange.Education.TestTask  - CorrectLogin
+INFO    2020-07-15 15:14:00,906 [pool-1-thread-1] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 15:14:16,881 [pool-2-thread-1] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 15:17:15,449 [pool-1-thread-1] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 15:17:30,562 [pool-2-thread-1] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 15:30:46,962 [pool-1-thread-1] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 15:31:01,325 [pool-2-thread-1] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 15:31:28,537 [pool-1-thread-1] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 15:31:44,483 [pool-2-thread-1] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 15:41:23,340 [pool-1-thread-1] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-15 15:41:37,873 [pool-2-thread-1] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-17 08:48:56,655 [main] com.Orange.Education.TestTask  - CheckTheText
+DEBUG   2020-07-17 08:48:56,657 [main] com.Orange.Education.TestTask  - CheckTheText
+WARN    2020-07-17 08:48:56,657 [main] com.Orange.Education.TestTask  - this is a warning log message
+INFO    2020-07-17 08:48:58,899 [main] com.Orange.Education.TestTask  - CheckTheTitle
+INFO    2020-07-17 08:48:59,160 [main] com.Orange.Education.TestTask  - CheckTheText
+INFO    2020-07-17 08:48:59,469 [main] com.Orange.Education.TestTask  - ForgotPassword
+INFO    2020-07-17 08:48:59,480 [main] com.Orange.Education.TestTask  - JSExecutorTest
+INFO    2020-07-17 08:49:03,628 [main] com.Orange.Education.TestTask  - CorrectLogin

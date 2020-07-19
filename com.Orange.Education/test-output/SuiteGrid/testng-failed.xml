@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [SuiteGrid]">
+  <parameter name="myBrowser" value="IE"/>
+  <test parallel="classes" name="GridIE(failed)">
+    <parameter name="myBrowser" value="IE"/>
+    <classes>
+      <class name="com.Orange.Education.GridExamples.StandAloneExample">
+        <methods>
+          <include name="setUpRemote"/>
+          <include name="setUpRemote"/>
+          <include name="setUpRemote"/>
+          <include name="TearDown"/>
+          <include name="TearDown"/>
+          <include name="createObject"/>
+          <include name="createObject"/>
+          <include name="JSExecutorTest"/>
+        </methods>
+      </class> <!-- com.Orange.Education.GridExamples.StandAloneExample -->
+    </classes>
+  </test> <!-- GridIE(failed) -->
+</suite> <!-- Failed suite [SuiteGrid] -->

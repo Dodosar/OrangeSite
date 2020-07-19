@@ -34,8 +34,8 @@ public class StandAloneExample extends GridWebDriverSettings {
 	public void JSExecutorTest() {
 		log.info("JSExecutorTest");
 		Orangehrmlive.mainPage().EnterUserName("username", TestData.value("CorrectUsername"), "id").then()
-		.EnterPassword("password", TestData.value("CorrectPassword"), "id").then().ClickDashBoard("loginbtn")
-		.logoutJSExecutor("logout").CheckTheTextInMainPage("logintext", TestData.value("loginText"), "id");
+		.EnterPassword("password", TestData.value("CorrectPassword"), "id").then().ClickDashBoard("loginbtn");
+		//Orangehrmlive.dashboard().logoutJSExecutor("logout").CheckTheTextInMainPage("logintext", TestData.value("loginText"), "id");
 System.out.println("CorrectLogin with Thread Id:- "
 		+ Thread.currentThread().getId());
 	}
