@@ -54,10 +54,6 @@ public class WebDriverSettings {
 		WebDriverWait wait = new WebDriverWait(driver, 30, 500);
 		driver.manage().window().maximize();
 
-		String log4jConfigFile = System.getProperty("user.dir") + File.separator
-				+ "\\src\\main\\resources\\log4j.properties";
-
-		PropertyConfigurator.configure(log4jConfigFile);
 
 	}
 
