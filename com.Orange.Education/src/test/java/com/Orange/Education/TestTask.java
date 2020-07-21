@@ -25,7 +25,7 @@ public class TestTask extends WebDriverSettings {
 		Orangehrmlive = new Orangehrmlive(driver);
 	}
 
-	
+
 	  @Epic(value = "Смоук тестирование")
 	  
 	  @Test(priority = 0) public void CheckTheText() { log.info("CheckTheText");
@@ -88,6 +88,7 @@ public class TestTask extends WebDriverSettings {
 	  System.out.println("CorrectLogin with Thread Id:- " +
 	  Thread.currentThread().getId()); }
 	 
+
 
 	@Test(priority = 6)
 	public void CheckErrorByLoginIsDisplayed() {
