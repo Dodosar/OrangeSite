@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [SuiteSmartCode]">
+  <parameter name="myBrowser" value="chrome"/>
+  <listeners>
+    <listener class-name="Properties.Listeners"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.Orange.Education.ZeroEffortAutomation.SmartCode">
+        <methods>
+          <include name="setUpRemote"/>
+          <include name="createObj"/>
+          <include name="TearDown"/>
+          <include name="GetFieldAttributes"/>
+        </methods>
+      </class> <!-- com.Orange.Education.ZeroEffortAutomation.SmartCode -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [SuiteSmartCode] -->

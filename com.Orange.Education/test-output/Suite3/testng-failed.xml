@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite3]">
+<suite parallel="classes" name="Failed suite [Suite3]">
   <parameter name="myBrowser" value="IE"/>
-  <test parallel="tests" name="GridIE(failed)">
+  <test parallel="classes" name="GridIE(failed)">
     <parameter name="myBrowser" value="IE"/>
     <classes>
       <class name="com.Orange.Education.GridExamples.StandAloneExample">

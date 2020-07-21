@@ -1,0 +1,56 @@
+{
+  "uid" : "5ed1d43e51e9880e",
+  "name" : "TestGetRequest",
+  "fullName" : "com.Orange.Education.RestAssuredTest.ApiTestRestAssure.TestGetRequest",
+  "historyId" : "698efd46e43776803af03025a04927d2",
+  "time" : {
+    "start" : 1594723233595,
+    "stop" : 1594723233595,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "java.lang.NullPointerException",
+  "statusTrace" : "java.lang.NullPointerException\r\n\tat Properties.TestUtils.captureScreenshot(TestUtils.java:27)\r\n\tat Properties.Listeners.onTestSuccess(Listeners.java:20)\r\n\tat org.testng.internal.Invoker.runTestListeners(Invoker.java:1899)\r\n\tat org.testng.internal.Invoker.runTestListeners(Invoker.java:1879)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:778)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:767)\r\n\tat org.testng.TestRunner.run(TestRunner.java:617)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\r\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:37)\r\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)\r\n\tat org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\r\n\tat java.base/java.lang.Thread.run(Thread.java:834)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.Orange.Education.RestAssuredTest.ApiTestRestAssure"
+  }, {
+    "name" : "testClass",
+    "value" : "com.Orange.Education.RestAssuredTest.ApiTestRestAssure"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestGetRequest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "HttpSuite"
+  }, {
+    "name" : "suite",
+    "value" : "RestAssuredTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.Orange.Education.RestAssuredTest.ApiTestRestAssure"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "14456@TYUDM.TestNG(18)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5ed1d43e51e9880e.json",
+  "parameterValues" : [ ]
+}

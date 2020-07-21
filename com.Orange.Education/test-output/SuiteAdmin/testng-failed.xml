@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [SuiteAdmin]">
+  <parameter name="employeeName" value="Test Dinusha"/>
+  <parameter name="password" value="Dima50065"/>
+  <parameter name="userRole" value="Admin"/>
+  <parameter name="username" value="RRRTTTQQQ"/>
+  <parameter name="status" value="Enabled"/>
+  <test parallel="tests" name="Adminpagetest(failed)">
+    <classes>
+      <class name="com.Orange.Education.AdminPageTest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="AddNewUserByParametersInXml" invocation-numbers="0"/>
+          <include name="logIn"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Orange.Education.AdminPageTest -->
+    </classes>
+  </test> <!-- Adminpagetest(failed) -->
+</suite> <!-- Failed suite [SuiteAdmin] -->

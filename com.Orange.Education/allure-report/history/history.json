@@ -1,14 +1,49 @@
 {
+  "8c6829d599c0bf6a3cba6b81d5bbf642" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "abed5d41753184b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723577459,
+        "stop" : 1594723577461,
+        "duration" : 2
+      }
+    } ]
+  },
   "eafa370339bebb82a101d5b46ecd6a07" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 2
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "29cc6f1900085d12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723275482,
+        "stop" : 1594723275856,
+        "duration" : 374
+      }
+    }, {
+      "uid" : "fa356fee05d483c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594721352639,
+        "stop" : 1594721352861,
+        "duration" : 222
+      }
+    }, {
       "uid" : "687dce5521103197",
       "status" : "passed",
       "time" : {
@@ -26,61 +61,27 @@
       }
     } ]
   },
-  "5be983305f0f57b3e060f6ffae381f29" : {
+  "f3ac2a6d882f51447d9e3de0f35e3f13" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "479f5811809d3134",
-      "status" : "passed",
+      "uid" : "f332928292cc7da9",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='menu_admin_viewAdminModule']\"}\n  (Session info: chrome=83.0.4103.116)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'TYUDM', ip: '192.168.1.154', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\\Users\\Dima\\AppData\\Local\\Temp\\scoped_dir18076_144656072}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53052}, acceptInsecureCerts=false, browserVersion=83.0.4103.116, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]\nSession ID: ef6b4b36052a0e563878172dae233ba4\n*** Element info: {Using=xpath, value=//*[@id='menu_admin_viewAdminModule']}",
       "time" : {
-        "start" : 1594211767329,
-        "stop" : 1594211772009,
-        "duration" : 4680
-      }
-    }, {
-      "uid" : "10016709260e1fcd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1594130013632,
-        "stop" : 1594130018160,
-        "duration" : 4528
+        "start" : 1594723363565,
+        "stop" : 1594723375431,
+        "duration" : 11866
       }
     } ]
   },
-  "682df395f5761c863c1d73fb8cfb845c" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "8a49ca8a2f68a26",
-      "status" : "passed",
-      "time" : {
-        "start" : 1594211772020,
-        "stop" : 1594211772021,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "d25a693dfde57906",
-      "status" : "passed",
-      "time" : {
-        "start" : 1594130018192,
-        "stop" : 1594130018193,
-        "duration" : 1
-      }
-    } ]
-  },
-  "bdf82c247e689a3bfe3fe3d457deb3b7" : {
+  "698efd46e43776803af03025a04927d2" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -90,6 +91,284 @@
       "total" : 2
     },
     "items" : [ {
+      "uid" : "77aa8ac051f71e3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723573858,
+        "stop" : 1594723577453,
+        "duration" : 3595
+      }
+    }, {
+      "uid" : "1739ae0ecfd7e194",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1594721147930,
+        "stop" : 1594721147930,
+        "duration" : 0
+      }
+    } ]
+  },
+  "80491d95494c3bfd44ef94888c8d31b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "9fe5b33a6a20a48e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723313235,
+        "stop" : 1594723318350,
+        "duration" : 5115
+      }
+    }, {
+      "uid" : "6f0dee65d2fa1f04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594721225805,
+        "stop" : 1594721230884,
+        "duration" : 5079
+      }
+    } ]
+  },
+  "7dd3af0e27299a6f940c2d33ece85631" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "792c909c0253d5e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723577468,
+        "stop" : 1594723578012,
+        "duration" : 544
+      }
+    } ]
+  },
+  "6b3b4c889235da1ca06acebc41d2949a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "5c211feb2c83ce1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723349053,
+        "stop" : 1594723351154,
+        "duration" : 2101
+      }
+    }, {
+      "uid" : "3681e9a40fbaf9fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594721261422,
+        "stop" : 1594721263485,
+        "duration" : 2063
+      }
+    } ]
+  },
+  "b90e12b95c01993a4372f4e32212c7d1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "f0da93ef5afe4703",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'TYUDM', ip: '192.168.1.154', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.5'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1594723262319,
+        "stop" : 1594723262320,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6dda65609f53dc5a",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'TYUDM', ip: '192.168.1.154', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.5'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1594721176750,
+        "stop" : 1594721176750,
+        "duration" : 0
+      }
+    } ]
+  },
+  "35d4a0bb38e3f981a53c8f9b93a2fd05" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a687bb0b724b6d88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723402224,
+        "stop" : 1594723406135,
+        "duration" : 3911
+      }
+    } ]
+  },
+  "b78b6bebf384b96a1508b2048497c7d0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e11bac5beffd47fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723572865,
+        "stop" : 1594723572867,
+        "duration" : 2
+      }
+    } ]
+  },
+  "d511650815110aa20ee81db70a8cd540" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c572d58929d290e",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='menu_admin_viewAdminModule']\"}\n  (Session info: chrome=83.0.4103.116)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'TYUDM', ip: '192.168.1.154', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\\Users\\Dima\\AppData\\Local\\Temp\\scoped_dir18076_144656072}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53052}, acceptInsecureCerts=false, browserVersion=83.0.4103.116, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]\nSession ID: ef6b4b36052a0e563878172dae233ba4\n*** Element info: {Using=xpath, value=//*[@id='menu_admin_viewAdminModule']}",
+      "time" : {
+        "start" : 1594723407036,
+        "stop" : 1594723418861,
+        "duration" : 11825
+      }
+    } ]
+  },
+  "c65cf0ef936bea979e3e212f16d5d2da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "909161bdb60dc676",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723239056,
+        "stop" : 1594723246877,
+        "duration" : 7821
+      }
+    }, {
+      "uid" : "330529a51a3ca280",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594721154620,
+        "stop" : 1594721160732,
+        "duration" : 6112
+      }
+    } ]
+  },
+  "f51804c24eb1b5f5af82dd9bba4346f9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77ab95654a9c1e35",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='menu_admin_viewAdminModule']\"}\n  (Session info: chrome=83.0.4103.116)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'TYUDM', ip: '192.168.1.154', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\\Users\\Dima\\AppData\\Local\\Temp\\scoped_dir18076_144656072}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53052}, acceptInsecureCerts=false, browserVersion=83.0.4103.116, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]\nSession ID: ef6b4b36052a0e563878172dae233ba4\n*** Element info: {Using=xpath, value=//*[@id='menu_admin_viewAdminModule']}",
+      "time" : {
+        "start" : 1594723376318,
+        "stop" : 1594723388580,
+        "duration" : 12262
+      }
+    } ]
+  },
+  "69d27cd6525fb76269f0d29f1a93c61c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "5dece45aaeb9f64a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723255383,
+        "stop" : 1594723261134,
+        "duration" : 5751
+      }
+    }, {
+      "uid" : "c80559e59046438f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594721170173,
+        "stop" : 1594721175710,
+        "duration" : 5537
+      }
+    } ]
+  },
+  "bdf82c247e689a3bfe3fe3d457deb3b7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "bc3655e32fafe715",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723266111,
+        "stop" : 1594723267810,
+        "duration" : 1699
+      }
+    }, {
+      "uid" : "96750e54b89166e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594721346196,
+        "stop" : 1594721348136,
+        "duration" : 1940
+      }
+    }, {
       "uid" : "335a364b44f47ab6",
       "status" : "passed",
       "time" : {
@@ -108,26 +387,34 @@
       }
     } ]
   },
-  "8eede8bc2ca3bca0589bfefbed61ce3" : {
+  "56cf955a68f8c6ee5c9f778b0e4fc4" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
-      "uid" : "30bf450848a8174b",
+      "uid" : "6b6d5c4ea76a96f5",
       "status" : "passed",
       "time" : {
-        "start" : 1594211772028,
-        "stop" : 1594211774429,
-        "duration" : 2401
+        "start" : 1594723287039,
+        "stop" : 1594723292697,
+        "duration" : 5658
+      }
+    }, {
+      "uid" : "8079677c3bb2d2bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594721200994,
+        "stop" : 1594721205429,
+        "duration" : 4435
       }
     } ]
   },
-  "db24016f385b18c7071dd99abe324b5" : {
+  "eacc1a4c08f8d02277b4d9cb972c477e" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -137,6 +424,270 @@
       "total" : 2
     },
     "items" : [ {
+      "uid" : "f08fd9d9f833da6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723572715,
+        "stop" : 1594723572730,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "c73309bc9240e180",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1594721144495,
+        "stop" : 1594721144496,
+        "duration" : 1
+      }
+    } ]
+  },
+  "6dcc3eb254bc19a8900cb5261c6dbaae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "4afb2be5083a18b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723319226,
+        "stop" : 1594723322170,
+        "duration" : 2944
+      }
+    }, {
+      "uid" : "cf351f4ea59ba21a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594721231781,
+        "stop" : 1594721234549,
+        "duration" : 2768
+      }
+    } ]
+  },
+  "682df395f5761c863c1d73fb8cfb845c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "e732657231ba69b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723274485,
+        "stop" : 1594723274488,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "3efb7ab1516cb906",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594721352632,
+        "stop" : 1594721352634,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "8a49ca8a2f68a26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594211772020,
+        "stop" : 1594211772021,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d25a693dfde57906",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594130018192,
+        "stop" : 1594130018193,
+        "duration" : 1
+      }
+    } ]
+  },
+  "bb004e771ae6f8d71edb1780f63c4b1e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "39cbd47e0fd2ac01",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='btnAdd'] (tried for 10 second(s) with 500 MILLISECONDS interval)",
+      "time" : {
+        "start" : 1594723322989,
+        "stop" : 1594723336108,
+        "duration" : 13119
+      }
+    }, {
+      "uid" : "55d64a426142f7ac",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='btnAdd'] (tried for 10 second(s) with 500 MILLISECONDS interval)",
+      "time" : {
+        "start" : 1594721235434,
+        "stop" : 1594721248534,
+        "duration" : 13100
+      }
+    } ]
+  },
+  "c9a62c18dae59fbadcfd5ed03000ec86" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "744aca506a952c4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723573793,
+        "stop" : 1594723573794,
+        "duration" : 1
+      }
+    } ]
+  },
+  "62c099b784e874f273e4a11085dfee57" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b318b0294bf42671",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723572874,
+        "stop" : 1594723573786,
+        "duration" : 912
+      }
+    } ]
+  },
+  "e8a2acda1f1b9db05ff22f77ed273c88" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "215a942f33408eee",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1594723307342,
+        "stop" : 1594723307342,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a13a04bf2e78bf54",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1594721220075,
+        "stop" : 1594721220075,
+        "duration" : 0
+      }
+    } ]
+  },
+  "ebe4a509f5bb4d35ef046008b836a884" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "68eee9998667eaf4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='btnAdd'] (tried for 10 second(s) with 500 MILLISECONDS interval)",
+      "time" : {
+        "start" : 1594723293653,
+        "stop" : 1594723306536,
+        "duration" : 12883
+      }
+    }, {
+      "uid" : "4778f25ff40bc3ac",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='btnAdd'] (tried for 10 second(s) with 500 MILLISECONDS interval)",
+      "time" : {
+        "start" : 1594721206415,
+        "stop" : 1594721219210,
+        "duration" : 12795
+      }
+    } ]
+  },
+  "b96c83bdcc8c7a71b50e7130dd000b40" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "8b173854a0bb1733",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723342116,
+        "stop" : 1594723344264,
+        "duration" : 2148
+      }
+    }, {
+      "uid" : "fc7c3bfe17772a6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594721254638,
+        "stop" : 1594721256695,
+        "duration" : 2057
+      }
+    } ]
+  },
+  "db24016f385b18c7071dd99abe324b5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "2838735cab50459f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723276936,
+        "stop" : 1594723277388,
+        "duration" : 452
+      }
+    }, {
+      "uid" : "6671b545a0b46f11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594721352869,
+        "stop" : 1594721353148,
+        "duration" : 279
+      }
+    }, {
       "uid" : "e2743393fbc5485f",
       "status" : "broken",
       "statusDetails" : "Cannot find entry for fieldName: 'loginbt'",
@@ -152,6 +703,104 @@
         "start" : 1594130011064,
         "stop" : 1594130012983,
         "duration" : 1919
+      }
+    } ]
+  },
+  "5be983305f0f57b3e060f6ffae381f29" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "2d1c8ee17ea7544c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723268710,
+        "stop" : 1594723273517,
+        "duration" : 4807
+      }
+    }, {
+      "uid" : "7fdfd5a1bab210f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594721348295,
+        "stop" : 1594721352621,
+        "duration" : 4326
+      }
+    }, {
+      "uid" : "479f5811809d3134",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594211767329,
+        "stop" : 1594211772009,
+        "duration" : 4680
+      }
+    }, {
+      "uid" : "10016709260e1fcd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594130013632,
+        "stop" : 1594130018160,
+        "duration" : 4528
+      }
+    } ]
+  },
+  "8eede8bc2ca3bca0589bfefbed61ce3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "fcbc2099230b01c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594723278364,
+        "stop" : 1594723280950,
+        "duration" : 2586
+      }
+    }, {
+      "uid" : "ed389a458deefa5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594721353153,
+        "stop" : 1594721355453,
+        "duration" : 2300
+      }
+    }, {
+      "uid" : "30bf450848a8174b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594211772028,
+        "stop" : 1594211774429,
+        "duration" : 2401
+      }
+    } ]
+  },
+  "1eb758a5da81e28e3a624f544d634c6d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "638e5f0e87483385",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='menu_admin_viewAdminModule']\"}\n  (Session info: chrome=83.0.4103.116)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'TYUDM', ip: '192.168.1.154', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\\Users\\Dima\\AppData\\Local\\Temp\\scoped_dir18076_144656072}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53052}, acceptInsecureCerts=false, browserVersion=83.0.4103.116, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]\nSession ID: ef6b4b36052a0e563878172dae233ba4\n*** Element info: {Using=xpath, value=//*[@id='menu_admin_viewAdminModule']}",
+      "time" : {
+        "start" : 1594723389470,
+        "stop" : 1594723401317,
+        "duration" : 11847
       }
     } ]
   }

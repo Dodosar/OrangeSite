@@ -1,0 +1,54 @@
+{
+  "uid" : "c11ed3a7f3141977",
+  "name" : "TestPostRequest",
+  "fullName" : "com.Orange.Education.RestAssuredTest.ApiTestRestAssure.TestPostRequest",
+  "historyId" : "7dd3af0e27299a6f940c2d33ece85631",
+  "time" : {
+    "start" : 1594723012189,
+    "stop" : 1594723012740,
+    "duration" : 551
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.Orange.Education.RestAssuredTest.ApiTestRestAssure"
+  }, {
+    "name" : "testClass",
+    "value" : "com.Orange.Education.RestAssuredTest.ApiTestRestAssure"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestPostRequest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "HttpSuite"
+  }, {
+    "name" : "suite",
+    "value" : "RestAssuredTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.Orange.Education.RestAssuredTest.ApiTestRestAssure"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "16160@TYUDM.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c11ed3a7f3141977.json",
+  "parameterValues" : [ ]
+}

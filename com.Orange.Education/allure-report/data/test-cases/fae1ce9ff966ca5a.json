@@ -1,0 +1,181 @@
+{
+  "uid" : "fae1ce9ff966ca5a",
+  "name" : "LogInByDataProvider",
+  "fullName" : "com.Orange.Education.DataProviderExample.LogInByDataProvider",
+  "historyId" : "35d4a0bb38e3f981a53c8f9b93a2fd05",
+  "time" : {
+    "start" : 1594723355865,
+    "stop" : 1594723362683,
+    "duration" : 6818
+  },
+  "description" : "DataProvider Test",
+  "descriptionHtml" : "<p>DataProvider Test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1594723352229,
+      "stop" : 1594723355860,
+      "duration" : 3631
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setUpOrangeLive",
+    "time" : {
+      "start" : 1594723355860,
+      "stop" : 1594723355860,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "DataProvider Test",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Enter username username and check attribute id ",
+      "time" : {
+        "start" : 1594723357825,
+        "stop" : 1594723357971,
+        "duration" : 146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "string",
+        "value" : "username"
+      }, {
+        "name" : "value",
+        "value" : "Admin"
+      }, {
+        "name" : "attribute",
+        "value" : "id"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter password password and check attribute id ",
+      "time" : {
+        "start" : 1594723357971,
+        "stop" : 1594723358136,
+        "duration" : 165
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "string",
+        "value" : "password"
+      }, {
+        "name" : "value",
+        "value" : "admin123"
+      }, {
+        "name" : "attribute",
+        "value" : "id"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Teardown",
+    "time" : {
+      "start" : 1594723419756,
+      "stop" : 1594723420699,
+      "duration" : 943
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.Orange.Education.DataProviderExample"
+  }, {
+    "name" : "testClass",
+    "value" : "com.Orange.Education.DataProviderExample"
+  }, {
+    "name" : "testMethod",
+    "value" : "LogInByDataProvider"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SuiteDataProvider"
+  }, {
+    "name" : "suite",
+    "value" : "TestDataProvider"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.Orange.Education.DataProviderExample"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "14456@TYUDM.main(1)"
+  }, {
+    "name" : "epic",
+    "value" : "Смоук тестирование"
+  }, {
+    "name" : "feature",
+    "value" : "New Test by Data Provider"
+  }, {
+    "name" : "story",
+    "value" : "logIn by Data Provider"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Admin"
+  }, {
+    "name" : "arg1",
+    "value" : "admin123"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fae1ce9ff966ca5a.json",
+  "parameterValues" : [ "Admin", "admin123" ]
+}

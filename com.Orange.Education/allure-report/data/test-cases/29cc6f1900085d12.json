@@ -1,0 +1,145 @@
+{
+  "uid" : "29cc6f1900085d12",
+  "name" : "CheckTheTitle",
+  "fullName" : "com.Orange.Education.TestTask.CheckTheTitle",
+  "historyId" : "eafa370339bebb82a101d5b46ecd6a07",
+  "time" : {
+    "start" : 1594723275482,
+    "stop" : 1594723275856,
+    "duration" : 374
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1594723262349,
+      "stop" : 1594723266108,
+      "duration" : 3759
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "createObject",
+    "time" : {
+      "start" : 1594723266108,
+      "stop" : 1594723266109,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Teardown",
+    "time" : {
+      "start" : 1594723281897,
+      "stop" : 1594723283293,
+      "duration" : 1396
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.Orange.Education.TestTask"
+  }, {
+    "name" : "testClass",
+    "value" : "com.Orange.Education.TestTask"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckTheTitle"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SuiteLogIN"
+  }, {
+    "name" : "suite",
+    "value" : "TestCaseLoginPage"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.Orange.Education.TestTask"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "14456@TYUDM.TestNG(22)"
+  }, {
+    "name" : "epic",
+    "value" : "Смоук тестирование"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "fa356fee05d483c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594721352639,
+          "stop" : 1594721352861,
+          "duration" : 222
+        }
+      }, {
+        "uid" : "687dce5521103197",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594211767078,
+          "stop" : 1594211767319,
+          "duration" : 241
+        }
+      }, {
+        "uid" : "18451c4b49ec495f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594130013387,
+          "stop" : 1594130013623,
+          "duration" : 236
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "29cc6f1900085d12.json",
+  "parameterValues" : [ ]
+}

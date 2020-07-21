@@ -1,0 +1,199 @@
+{
+  "uid" : "5dece45aaeb9f64a",
+  "name" : "JSExecutorTest",
+  "fullName" : "com.Orange.Education.GridExamples.StandAloneExample.JSExecutorTest",
+  "historyId" : "69d27cd6525fb76269f0d29f1a93c61c",
+  "time" : {
+    "start" : 1594723255383,
+    "stop" : 1594723261134,
+    "duration" : 5751
+  },
+  "description" : "Verify Sign In fucntionality",
+  "descriptionHtml" : "<p>Verify Sign In fucntionality</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUpRemote",
+    "time" : {
+      "start" : 1594723251603,
+      "stop" : 1594723255373,
+      "duration" : 3770
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "createObject",
+    "time" : {
+      "start" : 1594723255374,
+      "stop" : 1594723255374,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify Sign In fucntionality",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Enter username username and check attribute id ",
+      "time" : {
+        "start" : 1594723257044,
+        "stop" : 1594723257175,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "string",
+        "value" : "username"
+      }, {
+        "name" : "value",
+        "value" : "Admin"
+      }, {
+        "name" : "attribute",
+        "value" : "id"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter password password and check attribute id ",
+      "time" : {
+        "start" : 1594723257176,
+        "stop" : 1594723257290,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "string",
+        "value" : "password"
+      }, {
+        "name" : "value",
+        "value" : "admin123"
+      }, {
+        "name" : "attribute",
+        "value" : "id"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1594723262139,
+      "stop" : 1594723262270,
+      "duration" : 131
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.Orange.Education.GridExamples.StandAloneExample"
+  }, {
+    "name" : "testClass",
+    "value" : "com.Orange.Education.GridExamples.StandAloneExample"
+  }, {
+    "name" : "testMethod",
+    "value" : "JSExecutorTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SuiteGrid"
+  }, {
+    "name" : "suite",
+    "value" : "GridChrome"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.Orange.Education.GridExamples.StandAloneExample"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "14456@TYUDM.pool-2-thread-1(20)"
+  }, {
+    "name" : "epic",
+    "value" : "Смоук тестирование"
+  }, {
+    "name" : "feature",
+    "value" : "Регистрация"
+  }, {
+    "name" : "story",
+    "value" : "Регистрация нового пользователя"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "myBrowser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c80559e59046438f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594721170173,
+          "stop" : 1594721175710,
+          "duration" : 5537
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5dece45aaeb9f64a.json",
+  "parameterValues" : [ "chrome" ]
+}

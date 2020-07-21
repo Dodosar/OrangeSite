@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParametersSuite">
+	<test thread-count="1" name="Test">
+		<parameter name="userRole" value="Admin" />
+		<parameter name="employeeName" value="Bhavin Kumar" />
+		<parameter name="username" value="Dqweruiop" />
+		<parameter name="status" value="Enabled" />
+		<parameter name="password" value="Dima50065" />
+		<parameter name="CorrectName" value="Admin" />
+		<parameter name="CorPassword" value="admin123" />
+		<parameter name="inCorrectName" value="Admin" />
+		<parameter name="inCorPassword" value="admin123" />
+		<classes>
+			<class name="com.Orange.Education.ParametersExampleXML">
+				<methods>
+					<include name="logIn"></include>
+					<!-- <include name="AddNewUserByParametersInXml"></include>
+					<exclude name="AddNewUserByParametersInXml"></exclude>
+					<include name="logInWithParametrs"></include> -->
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

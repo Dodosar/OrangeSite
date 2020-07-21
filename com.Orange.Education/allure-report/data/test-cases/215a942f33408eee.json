@@ -1,0 +1,131 @@
+{
+  "uid" : "215a942f33408eee",
+  "name" : "VerifyNewUser",
+  "fullName" : "com.Orange.Education.AdminPageTest.VerifyNewUser",
+  "historyId" : "e8a2acda1f1b9db05ff22f77ed273c88",
+  "time" : {
+    "start" : 1594723307342,
+    "stop" : 1594723307342,
+    "duration" : 0
+  },
+  "description" : "Create new User by Admin",
+  "descriptionHtml" : "<p>Create new User by Admin</p>\n",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1594723283305,
+      "stop" : 1594723287038,
+      "duration" : 3733
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setUpOrangeLive",
+    "time" : {
+      "start" : 1594723287038,
+      "stop" : 1594723287038,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Teardown",
+    "time" : {
+      "start" : 1594723308216,
+      "stop" : 1594723309447,
+      "duration" : 1231
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.Orange.Education.AdminPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.Orange.Education.AdminPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyNewUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SuiteAdmin"
+  }, {
+    "name" : "suite",
+    "value" : "Adminpagetest"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.Orange.Education.AdminPageTest"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "14456@TYUDM.main(1)"
+  }, {
+    "name" : "epic",
+    "value" : "SmokeTesting"
+  }, {
+    "name" : "story",
+    "value" : "Create new User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a13a04bf2e78bf54",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1594721220075,
+          "stop" : 1594721220075,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "215a942f33408eee.json",
+  "parameterValues" : [ ]
+}

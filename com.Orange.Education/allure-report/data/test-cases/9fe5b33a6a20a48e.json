@@ -1,0 +1,229 @@
+{
+  "uid" : "9fe5b33a6a20a48e",
+  "name" : "logIn",
+  "fullName" : "com.Orange.Education.ParametersExampleXML.logIn",
+  "historyId" : "80491d95494c3bfd44ef94888c8d31b2",
+  "time" : {
+    "start" : 1594723313235,
+    "stop" : 1594723318350,
+    "duration" : 5115
+  },
+  "description" : "Verify Sign In fucntionality",
+  "descriptionHtml" : "<p>Verify Sign In fucntionality</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1594723309462,
+      "stop" : 1594723313228,
+      "duration" : 3766
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setUpOrangeLive",
+    "time" : {
+      "start" : 1594723313229,
+      "stop" : 1594723313229,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify Sign In fucntionality",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Enter username username and check attribute id ",
+      "time" : {
+        "start" : 1594723314919,
+        "stop" : 1594723315034,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "string",
+        "value" : "username"
+      }, {
+        "name" : "value",
+        "value" : "Admin"
+      }, {
+        "name" : "attribute",
+        "value" : "id"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter password password and check attribute id ",
+      "time" : {
+        "start" : 1594723315034,
+        "stop" : 1594723315139,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "string",
+        "value" : "password"
+      }, {
+        "name" : "value",
+        "value" : "admin123"
+      }, {
+        "name" : "attribute",
+        "value" : "id"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "Teardown",
+    "time" : {
+      "start" : 1594723336954,
+      "stop" : 1594723337991,
+      "duration" : 1037
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.Orange.Education.ParametersExampleXML"
+  }, {
+    "name" : "testClass",
+    "value" : "com.Orange.Education.ParametersExampleXML"
+  }, {
+    "name" : "testMethod",
+    "value" : "logIn"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ParametersSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.Orange.Education.ParametersExampleXML"
+  }, {
+    "name" : "host",
+    "value" : "TYUDM"
+  }, {
+    "name" : "thread",
+    "value" : "14456@TYUDM.main(1)"
+  }, {
+    "name" : "epic",
+    "value" : "Смоук тестирование"
+  }, {
+    "name" : "feature",
+    "value" : "Регистрация2"
+  }, {
+    "name" : "story",
+    "value" : "Регистрация нового пользователя2"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "CorPassword",
+    "value" : "admin123"
+  }, {
+    "name" : "CorrectName",
+    "value" : "Admin"
+  }, {
+    "name" : "arg0",
+    "value" : "Admin"
+  }, {
+    "name" : "arg1",
+    "value" : "admin123"
+  }, {
+    "name" : "employeeName",
+    "value" : "Bhavin Kumar"
+  }, {
+    "name" : "inCorPassword",
+    "value" : "admin123"
+  }, {
+    "name" : "inCorrectName",
+    "value" : "Admin"
+  }, {
+    "name" : "password",
+    "value" : "Dima50065"
+  }, {
+    "name" : "status",
+    "value" : "Enabled"
+  }, {
+    "name" : "userRole",
+    "value" : "Admin"
+  }, {
+    "name" : "username",
+    "value" : "Dqweruiop"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6f0dee65d2fa1f04",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594721225805,
+          "stop" : 1594721230884,
+          "duration" : 5079
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9fe5b33a6a20a48e.json",
+  "parameterValues" : [ "admin123", "Admin", "Admin", "admin123", "Bhavin Kumar", "admin123", "Admin", "Dima50065", "Enabled", "Admin", "Dqweruiop" ]
+}

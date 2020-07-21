@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite3]">
-  <parameter name="myBrowser" value="IE"/>
-  <test parallel="tests" name="GridIE(failed)">
-    <parameter name="myBrowser" value="IE"/>
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="com.Orange.Education.GridExamples.StandAloneExample">
+      <class name="com.Orange.Education.RestAssuredTest.ApiTestRestAssure">
         <methods>
-          <include name="setUpRemote"/>
-          <include name="setUpRemote"/>
-          <include name="setUpRemote"/>
-          <include name="TearDown"/>
-          <include name="TearDown"/>
-          <include name="createObject"/>
-          <include name="createObject"/>
-          <include name="JSExecutorTest"/>
+          <include name="GetRequest"/>
+          <include name="setBaseUri"/>
         </methods>
-      </class> <!-- com.Orange.Education.GridExamples.StandAloneExample -->
+      </class> <!-- com.Orange.Education.RestAssuredTest.ApiTestRestAssure -->
     </classes>
-  </test> <!-- GridIE(failed) -->
-</suite> <!-- Failed suite [Suite3] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

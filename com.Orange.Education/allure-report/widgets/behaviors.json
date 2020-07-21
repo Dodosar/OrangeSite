@@ -1,15 +1,48 @@
 {
-  "total" : 4,
+  "total" : 13,
   "items" : [ {
     "uid" : "af6af4d424e850ad4f43730a639e5864",
     "name" : "Смоук тестирование",
     "statistic" : {
       "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "f3f1f427451b0d897c1f2ce5d9b3e04d",
+    "name" : "SmokeTesting",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "ad9c3cc22cdd8afd81a8ba083b06299c",
+    "name" : "Fuctionality Testing",
+    "statistic" : {
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 3
+      "total" : 2
+    }
+  }, {
+    "uid" : "4b0a699f16ca0fd7bb1713a1cca248c7",
+    "name" : "Restfull testing",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   } ]
 }
